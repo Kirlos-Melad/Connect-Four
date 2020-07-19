@@ -1,0 +1,3 @@
+/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles/Connect_Four.dir

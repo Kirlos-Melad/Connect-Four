@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kirlos/CLionProjects/Connect Four/GameBoardManager.h
+bits/stdc++.h
+-
+SFML/Graphics.hpp
+-
+
+/home/kirlos/CLionProjects/Connect Four/Player.h
+bits/stdc++.h
+-
+SFML/Graphics.hpp
+-
+
+/home/kirlos/CLionProjects/Connect Four/VeiGoBot.cpp
+VeiGoBot.h
+/home/kirlos/CLionProjects/Connect Four/VeiGoBot.h
+
+/home/kirlos/CLionProjects/Connect Four/VeiGoBot.h
+Player.h
+/home/kirlos/CLionProjects/Connect Four/Player.h
+GameBoardManager.h
+/home/kirlos/CLionProjects/Connect Four/GameBoardManager.h
+
