@@ -1,20 +1,16 @@
 #ifndef PLAYER_H_
 #define PLAYER_H_
 
-#include <bits/stdc++.h>
-#include <SFML/Graphics.hpp>
-
-using namespace std;
-using namespace sf;
+#include "../headers.h"
 
 class Player {
 private:
-	const string name;
+	const std::string name;
 	char color; // red(r) or blue(b)
 	int turn; // 1 or 2
 	bool winner;
 public:
-	Player(string name);
+	Player(std::string name);
 	~Player();
 
 	bool isWinner() const {
@@ -29,7 +25,7 @@ public:
 		return color;
 	}
 
-	string getName() const {
+	std::string getName() const {
 		return name;
 	}
 

@@ -8,7 +8,7 @@
 #define VEIGOBOT_H_
 
 #include "Player.h"
-#include "../GUI/GameBoardManager.h"
+#include "../Managers/GameBoardManager.h"
 
 class VeiGoBot : public Player{
 private: // Attributes

@@ -7,25 +7,19 @@
 
 #include "GameBoardManager.h"
 GameBoardManager::GameBoardManager() {
-	for (int i = ROW_COUNT - 1; i >= 0; i--) {
-		for (int j = 0; j < COLUMN_COUNT; j++) {
-			GameBoard[i][j][INFORMATION_LEVEL - 1] = 0;
-		}
-	}
-	Initialize_AvailablePositions();
+	startNewGame();
 }
 
-void GameBoardManager::Display_GameBoard_Console() {
-	cout << endl;
-	for (int i = ROW_COUNT - 1; i >= 0; i--) {
-		for (int j = 0; j < COLUMN_COUNT; j++) {
-			cout << " | " << GameBoard[i][j][INFORMATION_LEVEL - 1];
-			if (j == 7) cout << " | ";
-		}
-		cout << endl << "  _ _ _ _ _ _ _ _" << endl;
-	}
-	cout << endl;
-	//Initialize_AvailablePositions();
+void GameBoardManager::startNewGame() {
+    for (int i = 0; i < ROW_COUNT; i--) {
+        for (int j = 0; j < COLUMN_COUNT; j++) {
+            GameBoard[i][j][0] = j * 100; // x
+            GameBoard[i][j][1] = i * 100; // y
+            GameBoard[i][j][2] = 0; // player
+        }
+    }
+
+    Initialize_AvailablePositions();
 }
 
 void GameBoardManager::Initialize_AvailablePositions() {
@@ -33,21 +27,11 @@ void GameBoardManager::Initialize_AvailablePositions() {
 	for (int i = 0; i < ROW_COUNT; i++) {
 		for (int j = 0; j < COLUMN_COUNT; j++) {
 			if (GameBoard[j][i][INFORMATION_LEVEL - 1] == 0) {
-				AvailablePositions.push_back(make_pair(i, j));
+				AvailablePositions.push_back(std::make_pair(i, j));
 				break;
 			}
 		}
 	}
-}
-
-void GameBoardManager::Display_AvailablePositions() {
-	cout << "Available Positions : " << endl;
-	for (int i = 0; i < AvailablePositions.size(); i++) {
-		cout << i + 1 << ") ";
-		cout << AvailablePositions[i].first << "  ";
-		if (i == 3) cout << endl;
-	}
-	cout << endl;
 }
 
 int GameBoardManager::AvailablePositionsCheck(int x) {

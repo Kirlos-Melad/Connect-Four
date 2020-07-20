@@ -6,25 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/kirlos/CLionProjects/Connect Four/GameBoardManager.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameManager.cpp
+GameManager.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameManager.h
+
+/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameManager.h
+../headers.h
+/home/kirlos/CLionProjects/Connect Four/Classes/headers.h
+../Screens/MainMenu.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MainMenu.h
+
+/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MainMenu.h
+MenuScroller.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.h
+
+/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.h
+../headers.h
+/home/kirlos/CLionProjects/Connect Four/Classes/headers.h
+
+/home/kirlos/CLionProjects/Connect Four/Classes/headers.h
 bits/stdc++.h
 -
 SFML/Graphics.hpp
 -
-
-/home/kirlos/CLionProjects/Connect Four/Player.h
-bits/stdc++.h
+SFML/Audio.hpp
 -
-SFML/Graphics.hpp
--
-
-/home/kirlos/CLionProjects/Connect Four/VeiGoBot.cpp
-VeiGoBot.h
-/home/kirlos/CLionProjects/Connect Four/VeiGoBot.h
-
-/home/kirlos/CLionProjects/Connect Four/VeiGoBot.h
-Player.h
-/home/kirlos/CLionProjects/Connect Four/Player.h
-GameBoardManager.h
-/home/kirlos/CLionProjects/Connect Four/GameBoardManager.h
 

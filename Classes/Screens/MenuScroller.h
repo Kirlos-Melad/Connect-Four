@@ -5,20 +5,21 @@
 #ifndef CONNECT_FOUR_MENUSCROLLER_H
 #define CONNECT_FOUR_MENUSCROLLER_H
 
-#include <SFML/Graphics.hpp>
+#include "../headers.h"
 
 class MenuScroller {
-protected:
+private:
     int numberOfItems, selectedItemIndex;
-    Text menu[MAX_NUMBER_OF_ITEMS_M];
+protected:
+    sf::Text *menu;
 public:
-    Menu(float width , float height, sf::Font &font);
-    ~Menu();
+    MenuScroller(float width, float height, sf::Font &font, int numberOfItems);
+    ~MenuScroller();
 
     void draw(sf::RenderWindow &window);
-    void MoveUp();
-    void MoveDown();
-    int GetPressedItem() { return selectedItemIndex; }
+    void moveUp();
+    void moveDown();
+    int getPressedItem() { return selectedItemIndex; }
 };
 
 

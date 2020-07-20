@@ -1,16 +1,13 @@
-#include <bits/stdc++.h>
-#include <SFML/Graphics.hpp>
-#include "Classes/GUI/GameBoardManager.h"
-#include "Classes/Player/Player.h"
-#include "Classes/Player/VeiGoBot.h"
 
-using namespace std;
-using namespace sf;
+int main(){
 
-typedef long long ll;
+
+    return 0;
+}
 
 //Main function :D.
 
+/*
 int main() {
 	//fastInput
 	srand(time(0));
@@ -24,12 +21,14 @@ int main() {
 		string name;
 		cout << "Enter player 1 name , please : ";
 		getline(cin, name);
-		Player player1(name);
+		Players player1(name);
 		player1.setTurn(1);
-		/*cout << "Enter player 2 name , please : ";
+		*/
+/*cout << "Enter player 2 name , please : ";
 		getline(cin, name);
-		Player player2(name);
-		player2.setTurn(2);*/
+		Players player2(name);
+		player2.setTurn(2);*//*
+
 		//Call GameBoard to display it;
 		gbManager.Display_GameBoard_Console();
 		gbManager.Display_AvailablePositions();
@@ -51,7 +50,8 @@ int main() {
 					NumberOfMovements--;
 				}
 			}
-			/*else {
+			*/
+/*else {
 				loop2:
 				cout << player2.getName() << " , please enter (x) position : ";
 				cin >> x;
@@ -63,7 +63,8 @@ int main() {
 					gbManager.insertPieceAt(2, x);
 					NumberOfMovements--;
 				}
-			}*/
+			}*//*
+
 			else
 			{
 				veigo.veigoPlay(gbManager);
@@ -93,3 +94,4 @@ int main() {
 	}
 	return 0;
 }
+*/

@@ -54,8 +54,8 @@ int VeiGoBot::minimax(int depth, bool bot, int alpha, int beta) {
 				//do
 				myGBManager->insertPieceAt(getTurn(), i);
 				//call
-				bestVal = max(bestVal, minimax(depth - 1, false, alpha, beta));
-				alpha = max(alpha, bestVal);
+				bestVal = std::max(bestVal, minimax(depth - 1, false, alpha, beta));
+				alpha = std::max(alpha, bestVal);
 				//undo
                 myGBManager->redoInsertion(i, y);
 				if (alpha >= beta) break;
@@ -72,8 +72,8 @@ int VeiGoBot::minimax(int depth, bool bot, int alpha, int beta) {
 				//do
 				myGBManager->insertPieceAt(3 - getTurn(), i);
 				//call
-				bestVal = min(bestVal, minimax(depth - 1, true, alpha, beta));
-				beta = min(beta, bestVal);
+				bestVal = std::min(bestVal, minimax(depth - 1, true, alpha, beta));
+				beta = std::min(beta, bestVal);
 				//undo
                 myGBManager->redoInsertion(i, y);
 				if (alpha >= beta) break;

@@ -82,28 +82,49 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/GUI/GameBoardManager.cpp">
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameBoardManager.cpp">
 			<Option target="Connect_Four"/>
 		</Unit>
-		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/GUI/GameBoardManager.h">
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameBoardManager.h">
 			<Option target="Connect_Four"/>
 		</Unit>
-		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/GUI/MenuScroller.cpp">
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameManager.cpp">
 			<Option target="Connect_Four"/>
 		</Unit>
-		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/GUI/MenuScroller.h">
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameManager.h">
 			<Option target="Connect_Four"/>
 		</Unit>
-		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Player/Player.cpp">
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Players/Player.cpp">
 			<Option target="Connect_Four"/>
 		</Unit>
-		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Player/Player.h">
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Players/Player.h">
 			<Option target="Connect_Four"/>
 		</Unit>
-		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Player/VeiGoBot.cpp">
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Players/VeiGoBot.cpp">
 			<Option target="Connect_Four"/>
 		</Unit>
-		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Player/VeiGoBot.h">
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Players/VeiGoBot.h">
+			<Option target="Connect_Four"/>
+		</Unit>
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Screens/GameBoard.cpp">
+			<Option target="Connect_Four"/>
+		</Unit>
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Screens/GameBoard.h">
+			<Option target="Connect_Four"/>
+		</Unit>
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MainMenu.cpp">
+			<Option target="Connect_Four"/>
+		</Unit>
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MainMenu.h">
+			<Option target="Connect_Four"/>
+		</Unit>
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.cpp">
+			<Option target="Connect_Four"/>
+		</Unit>
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.h">
+			<Option target="Connect_Four"/>
+		</Unit>
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/headers.h">
 			<Option target="Connect_Four"/>
 		</Unit>
 		<Unit filename="/home/kirlos/CLionProjects/Connect Four/main.cpp">

@@ -90,74 +90,119 @@ CMakeFiles/Connect_Four.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_Four.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kirlos/CLionProjects/Connect Four/main.cpp" -o CMakeFiles/Connect_Four.dir/main.cpp.s
 
-CMakeFiles/Connect_Four.dir/Classes/GUI/GameBoardManager.cpp.o: CMakeFiles/Connect_Four.dir/flags.make
-CMakeFiles/Connect_Four.dir/Classes/GUI/GameBoardManager.cpp.o: ../Classes/GUI/GameBoardManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Connect_Four.dir/Classes/GUI/GameBoardManager.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Connect_Four.dir/Classes/GUI/GameBoardManager.cpp.o -c "/home/kirlos/CLionProjects/Connect Four/Classes/GUI/GameBoardManager.cpp"
+CMakeFiles/Connect_Four.dir/Classes/Managers/GameBoardManager.cpp.o: CMakeFiles/Connect_Four.dir/flags.make
+CMakeFiles/Connect_Four.dir/Classes/Managers/GameBoardManager.cpp.o: ../Classes/Managers/GameBoardManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Connect_Four.dir/Classes/Managers/GameBoardManager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Connect_Four.dir/Classes/Managers/GameBoardManager.cpp.o -c "/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameBoardManager.cpp"
 
-CMakeFiles/Connect_Four.dir/Classes/GUI/GameBoardManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Connect_Four.dir/Classes/GUI/GameBoardManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kirlos/CLionProjects/Connect Four/Classes/GUI/GameBoardManager.cpp" > CMakeFiles/Connect_Four.dir/Classes/GUI/GameBoardManager.cpp.i
+CMakeFiles/Connect_Four.dir/Classes/Managers/GameBoardManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Connect_Four.dir/Classes/Managers/GameBoardManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameBoardManager.cpp" > CMakeFiles/Connect_Four.dir/Classes/Managers/GameBoardManager.cpp.i
 
-CMakeFiles/Connect_Four.dir/Classes/GUI/GameBoardManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_Four.dir/Classes/GUI/GameBoardManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kirlos/CLionProjects/Connect Four/Classes/GUI/GameBoardManager.cpp" -o CMakeFiles/Connect_Four.dir/Classes/GUI/GameBoardManager.cpp.s
+CMakeFiles/Connect_Four.dir/Classes/Managers/GameBoardManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_Four.dir/Classes/Managers/GameBoardManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameBoardManager.cpp" -o CMakeFiles/Connect_Four.dir/Classes/Managers/GameBoardManager.cpp.s
 
-CMakeFiles/Connect_Four.dir/Classes/Player/Player.cpp.o: CMakeFiles/Connect_Four.dir/flags.make
-CMakeFiles/Connect_Four.dir/Classes/Player/Player.cpp.o: ../Classes/Player/Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Connect_Four.dir/Classes/Player/Player.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Connect_Four.dir/Classes/Player/Player.cpp.o -c "/home/kirlos/CLionProjects/Connect Four/Classes/Player/Player.cpp"
+CMakeFiles/Connect_Four.dir/Classes/Players/Player.cpp.o: CMakeFiles/Connect_Four.dir/flags.make
+CMakeFiles/Connect_Four.dir/Classes/Players/Player.cpp.o: ../Classes/Players/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Connect_Four.dir/Classes/Players/Player.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Connect_Four.dir/Classes/Players/Player.cpp.o -c "/home/kirlos/CLionProjects/Connect Four/Classes/Players/Player.cpp"
 
-CMakeFiles/Connect_Four.dir/Classes/Player/Player.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Connect_Four.dir/Classes/Player/Player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kirlos/CLionProjects/Connect Four/Classes/Player/Player.cpp" > CMakeFiles/Connect_Four.dir/Classes/Player/Player.cpp.i
+CMakeFiles/Connect_Four.dir/Classes/Players/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Connect_Four.dir/Classes/Players/Player.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kirlos/CLionProjects/Connect Four/Classes/Players/Player.cpp" > CMakeFiles/Connect_Four.dir/Classes/Players/Player.cpp.i
 
-CMakeFiles/Connect_Four.dir/Classes/Player/Player.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_Four.dir/Classes/Player/Player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kirlos/CLionProjects/Connect Four/Classes/Player/Player.cpp" -o CMakeFiles/Connect_Four.dir/Classes/Player/Player.cpp.s
+CMakeFiles/Connect_Four.dir/Classes/Players/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_Four.dir/Classes/Players/Player.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kirlos/CLionProjects/Connect Four/Classes/Players/Player.cpp" -o CMakeFiles/Connect_Four.dir/Classes/Players/Player.cpp.s
 
-CMakeFiles/Connect_Four.dir/Classes/Player/VeiGoBot.cpp.o: CMakeFiles/Connect_Four.dir/flags.make
-CMakeFiles/Connect_Four.dir/Classes/Player/VeiGoBot.cpp.o: ../Classes/Player/VeiGoBot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Connect_Four.dir/Classes/Player/VeiGoBot.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Connect_Four.dir/Classes/Player/VeiGoBot.cpp.o -c "/home/kirlos/CLionProjects/Connect Four/Classes/Player/VeiGoBot.cpp"
+CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.o: CMakeFiles/Connect_Four.dir/flags.make
+CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.o: ../Classes/Players/VeiGoBot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.o -c "/home/kirlos/CLionProjects/Connect Four/Classes/Players/VeiGoBot.cpp"
 
-CMakeFiles/Connect_Four.dir/Classes/Player/VeiGoBot.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Connect_Four.dir/Classes/Player/VeiGoBot.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kirlos/CLionProjects/Connect Four/Classes/Player/VeiGoBot.cpp" > CMakeFiles/Connect_Four.dir/Classes/Player/VeiGoBot.cpp.i
+CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kirlos/CLionProjects/Connect Four/Classes/Players/VeiGoBot.cpp" > CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.i
 
-CMakeFiles/Connect_Four.dir/Classes/Player/VeiGoBot.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_Four.dir/Classes/Player/VeiGoBot.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kirlos/CLionProjects/Connect Four/Classes/Player/VeiGoBot.cpp" -o CMakeFiles/Connect_Four.dir/Classes/Player/VeiGoBot.cpp.s
+CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kirlos/CLionProjects/Connect Four/Classes/Players/VeiGoBot.cpp" -o CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.s
 
-CMakeFiles/Connect_Four.dir/Classes/GUI/MenuScroller.cpp.o: CMakeFiles/Connect_Four.dir/flags.make
-CMakeFiles/Connect_Four.dir/Classes/GUI/MenuScroller.cpp.o: ../Classes/GUI/MenuScroller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Connect_Four.dir/Classes/GUI/MenuScroller.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Connect_Four.dir/Classes/GUI/MenuScroller.cpp.o -c "/home/kirlos/CLionProjects/Connect Four/Classes/GUI/MenuScroller.cpp"
+CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.o: CMakeFiles/Connect_Four.dir/flags.make
+CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.o: ../Classes/Screens/MenuScroller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.o -c "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.cpp"
 
-CMakeFiles/Connect_Four.dir/Classes/GUI/MenuScroller.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Connect_Four.dir/Classes/GUI/MenuScroller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kirlos/CLionProjects/Connect Four/Classes/GUI/MenuScroller.cpp" > CMakeFiles/Connect_Four.dir/Classes/GUI/MenuScroller.cpp.i
+CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.cpp" > CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.i
 
-CMakeFiles/Connect_Four.dir/Classes/GUI/MenuScroller.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_Four.dir/Classes/GUI/MenuScroller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kirlos/CLionProjects/Connect Four/Classes/GUI/MenuScroller.cpp" -o CMakeFiles/Connect_Four.dir/Classes/GUI/MenuScroller.cpp.s
+CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.cpp" -o CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.s
+
+CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.o: CMakeFiles/Connect_Four.dir/flags.make
+CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.o: ../Classes/Screens/MainMenu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.o -c "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MainMenu.cpp"
+
+CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MainMenu.cpp" > CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.i
+
+CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MainMenu.cpp" -o CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.s
+
+CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o: CMakeFiles/Connect_Four.dir/flags.make
+CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o: ../Classes/Managers/GameManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o -c "/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameManager.cpp"
+
+CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameManager.cpp" > CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.i
+
+CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameManager.cpp" -o CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.s
+
+CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.o: CMakeFiles/Connect_Four.dir/flags.make
+CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.o: ../Classes/Screens/GameBoard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.o -c "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/GameBoard.cpp"
+
+CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/GameBoard.cpp" > CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.i
+
+CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/GameBoard.cpp" -o CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.s
 
 # Object files for target Connect_Four
 Connect_Four_OBJECTS = \
 "CMakeFiles/Connect_Four.dir/main.cpp.o" \
-"CMakeFiles/Connect_Four.dir/Classes/GUI/GameBoardManager.cpp.o" \
-"CMakeFiles/Connect_Four.dir/Classes/Player/Player.cpp.o" \
-"CMakeFiles/Connect_Four.dir/Classes/Player/VeiGoBot.cpp.o" \
-"CMakeFiles/Connect_Four.dir/Classes/GUI/MenuScroller.cpp.o"
+"CMakeFiles/Connect_Four.dir/Classes/Managers/GameBoardManager.cpp.o" \
+"CMakeFiles/Connect_Four.dir/Classes/Players/Player.cpp.o" \
+"CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.o" \
+"CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.o" \
+"CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.o" \
+"CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o" \
+"CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.o"
 
 # External object files for target Connect_Four
 Connect_Four_EXTERNAL_OBJECTS =
 
 Connect_Four: CMakeFiles/Connect_Four.dir/main.cpp.o
-Connect_Four: CMakeFiles/Connect_Four.dir/Classes/GUI/GameBoardManager.cpp.o
-Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Player/Player.cpp.o
-Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Player/VeiGoBot.cpp.o
-Connect_Four: CMakeFiles/Connect_Four.dir/Classes/GUI/MenuScroller.cpp.o
+Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Managers/GameBoardManager.cpp.o
+Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Players/Player.cpp.o
+Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.o
+Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.o
+Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.o
+Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o
+Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.o
 Connect_Four: CMakeFiles/Connect_Four.dir/build.make
 Connect_Four: /usr/lib/libsfml-graphics.so.2.5.1
 Connect_Four: /usr/lib/libsfml-network.so.2.5.1
@@ -165,7 +210,7 @@ Connect_Four: /usr/lib/libsfml-audio.so.2.5.1
 Connect_Four: /usr/lib/libsfml-window.so.2.5.1
 Connect_Four: /usr/lib/libsfml-system.so.2.5.1
 Connect_Four: CMakeFiles/Connect_Four.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Connect_Four"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Connect_Four"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Connect_Four.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

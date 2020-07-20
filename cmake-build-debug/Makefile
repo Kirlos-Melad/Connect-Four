@@ -143,113 +143,194 @@ Connect_Four/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/build
 .PHONY : Connect_Four/fast
 
-Classes/GUI/GameBoardManager.o: Classes/GUI/GameBoardManager.cpp.o
+Classes/Managers/GameBoardManager.o: Classes/Managers/GameBoardManager.cpp.o
 
-.PHONY : Classes/GUI/GameBoardManager.o
-
-# target to build an object file
-Classes/GUI/GameBoardManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/GUI/GameBoardManager.cpp.o
-.PHONY : Classes/GUI/GameBoardManager.cpp.o
-
-Classes/GUI/GameBoardManager.i: Classes/GUI/GameBoardManager.cpp.i
-
-.PHONY : Classes/GUI/GameBoardManager.i
-
-# target to preprocess a source file
-Classes/GUI/GameBoardManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/GUI/GameBoardManager.cpp.i
-.PHONY : Classes/GUI/GameBoardManager.cpp.i
-
-Classes/GUI/GameBoardManager.s: Classes/GUI/GameBoardManager.cpp.s
-
-.PHONY : Classes/GUI/GameBoardManager.s
-
-# target to generate assembly for a file
-Classes/GUI/GameBoardManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/GUI/GameBoardManager.cpp.s
-.PHONY : Classes/GUI/GameBoardManager.cpp.s
-
-Classes/GUI/MenuScroller.o: Classes/GUI/MenuScroller.cpp.o
-
-.PHONY : Classes/GUI/MenuScroller.o
+.PHONY : Classes/Managers/GameBoardManager.o
 
 # target to build an object file
-Classes/GUI/MenuScroller.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/GUI/MenuScroller.cpp.o
-.PHONY : Classes/GUI/MenuScroller.cpp.o
+Classes/Managers/GameBoardManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Managers/GameBoardManager.cpp.o
+.PHONY : Classes/Managers/GameBoardManager.cpp.o
 
-Classes/GUI/MenuScroller.i: Classes/GUI/MenuScroller.cpp.i
+Classes/Managers/GameBoardManager.i: Classes/Managers/GameBoardManager.cpp.i
 
-.PHONY : Classes/GUI/MenuScroller.i
+.PHONY : Classes/Managers/GameBoardManager.i
 
 # target to preprocess a source file
-Classes/GUI/MenuScroller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/GUI/MenuScroller.cpp.i
-.PHONY : Classes/GUI/MenuScroller.cpp.i
+Classes/Managers/GameBoardManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Managers/GameBoardManager.cpp.i
+.PHONY : Classes/Managers/GameBoardManager.cpp.i
 
-Classes/GUI/MenuScroller.s: Classes/GUI/MenuScroller.cpp.s
+Classes/Managers/GameBoardManager.s: Classes/Managers/GameBoardManager.cpp.s
 
-.PHONY : Classes/GUI/MenuScroller.s
+.PHONY : Classes/Managers/GameBoardManager.s
 
 # target to generate assembly for a file
-Classes/GUI/MenuScroller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/GUI/MenuScroller.cpp.s
-.PHONY : Classes/GUI/MenuScroller.cpp.s
+Classes/Managers/GameBoardManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Managers/GameBoardManager.cpp.s
+.PHONY : Classes/Managers/GameBoardManager.cpp.s
 
-Classes/Player/Player.o: Classes/Player/Player.cpp.o
+Classes/Managers/GameManager.o: Classes/Managers/GameManager.cpp.o
 
-.PHONY : Classes/Player/Player.o
+.PHONY : Classes/Managers/GameManager.o
 
 # target to build an object file
-Classes/Player/Player.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Player/Player.cpp.o
-.PHONY : Classes/Player/Player.cpp.o
+Classes/Managers/GameManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o
+.PHONY : Classes/Managers/GameManager.cpp.o
 
-Classes/Player/Player.i: Classes/Player/Player.cpp.i
+Classes/Managers/GameManager.i: Classes/Managers/GameManager.cpp.i
 
-.PHONY : Classes/Player/Player.i
+.PHONY : Classes/Managers/GameManager.i
 
 # target to preprocess a source file
-Classes/Player/Player.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Player/Player.cpp.i
-.PHONY : Classes/Player/Player.cpp.i
+Classes/Managers/GameManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.i
+.PHONY : Classes/Managers/GameManager.cpp.i
 
-Classes/Player/Player.s: Classes/Player/Player.cpp.s
+Classes/Managers/GameManager.s: Classes/Managers/GameManager.cpp.s
 
-.PHONY : Classes/Player/Player.s
+.PHONY : Classes/Managers/GameManager.s
 
 # target to generate assembly for a file
-Classes/Player/Player.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Player/Player.cpp.s
-.PHONY : Classes/Player/Player.cpp.s
+Classes/Managers/GameManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.s
+.PHONY : Classes/Managers/GameManager.cpp.s
 
-Classes/Player/VeiGoBot.o: Classes/Player/VeiGoBot.cpp.o
+Classes/Players/Player.o: Classes/Players/Player.cpp.o
 
-.PHONY : Classes/Player/VeiGoBot.o
+.PHONY : Classes/Players/Player.o
 
 # target to build an object file
-Classes/Player/VeiGoBot.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Player/VeiGoBot.cpp.o
-.PHONY : Classes/Player/VeiGoBot.cpp.o
+Classes/Players/Player.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Players/Player.cpp.o
+.PHONY : Classes/Players/Player.cpp.o
 
-Classes/Player/VeiGoBot.i: Classes/Player/VeiGoBot.cpp.i
+Classes/Players/Player.i: Classes/Players/Player.cpp.i
 
-.PHONY : Classes/Player/VeiGoBot.i
+.PHONY : Classes/Players/Player.i
 
 # target to preprocess a source file
-Classes/Player/VeiGoBot.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Player/VeiGoBot.cpp.i
-.PHONY : Classes/Player/VeiGoBot.cpp.i
+Classes/Players/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Players/Player.cpp.i
+.PHONY : Classes/Players/Player.cpp.i
 
-Classes/Player/VeiGoBot.s: Classes/Player/VeiGoBot.cpp.s
+Classes/Players/Player.s: Classes/Players/Player.cpp.s
 
-.PHONY : Classes/Player/VeiGoBot.s
+.PHONY : Classes/Players/Player.s
 
 # target to generate assembly for a file
-Classes/Player/VeiGoBot.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Player/VeiGoBot.cpp.s
-.PHONY : Classes/Player/VeiGoBot.cpp.s
+Classes/Players/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Players/Player.cpp.s
+.PHONY : Classes/Players/Player.cpp.s
+
+Classes/Players/VeiGoBot.o: Classes/Players/VeiGoBot.cpp.o
+
+.PHONY : Classes/Players/VeiGoBot.o
+
+# target to build an object file
+Classes/Players/VeiGoBot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.o
+.PHONY : Classes/Players/VeiGoBot.cpp.o
+
+Classes/Players/VeiGoBot.i: Classes/Players/VeiGoBot.cpp.i
+
+.PHONY : Classes/Players/VeiGoBot.i
+
+# target to preprocess a source file
+Classes/Players/VeiGoBot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.i
+.PHONY : Classes/Players/VeiGoBot.cpp.i
+
+Classes/Players/VeiGoBot.s: Classes/Players/VeiGoBot.cpp.s
+
+.PHONY : Classes/Players/VeiGoBot.s
+
+# target to generate assembly for a file
+Classes/Players/VeiGoBot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.s
+.PHONY : Classes/Players/VeiGoBot.cpp.s
+
+Classes/Screens/GameBoard.o: Classes/Screens/GameBoard.cpp.o
+
+.PHONY : Classes/Screens/GameBoard.o
+
+# target to build an object file
+Classes/Screens/GameBoard.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.o
+.PHONY : Classes/Screens/GameBoard.cpp.o
+
+Classes/Screens/GameBoard.i: Classes/Screens/GameBoard.cpp.i
+
+.PHONY : Classes/Screens/GameBoard.i
+
+# target to preprocess a source file
+Classes/Screens/GameBoard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.i
+.PHONY : Classes/Screens/GameBoard.cpp.i
+
+Classes/Screens/GameBoard.s: Classes/Screens/GameBoard.cpp.s
+
+.PHONY : Classes/Screens/GameBoard.s
+
+# target to generate assembly for a file
+Classes/Screens/GameBoard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.s
+.PHONY : Classes/Screens/GameBoard.cpp.s
+
+Classes/Screens/MainMenu.o: Classes/Screens/MainMenu.cpp.o
+
+.PHONY : Classes/Screens/MainMenu.o
+
+# target to build an object file
+Classes/Screens/MainMenu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.o
+.PHONY : Classes/Screens/MainMenu.cpp.o
+
+Classes/Screens/MainMenu.i: Classes/Screens/MainMenu.cpp.i
+
+.PHONY : Classes/Screens/MainMenu.i
+
+# target to preprocess a source file
+Classes/Screens/MainMenu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.i
+.PHONY : Classes/Screens/MainMenu.cpp.i
+
+Classes/Screens/MainMenu.s: Classes/Screens/MainMenu.cpp.s
+
+.PHONY : Classes/Screens/MainMenu.s
+
+# target to generate assembly for a file
+Classes/Screens/MainMenu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.s
+.PHONY : Classes/Screens/MainMenu.cpp.s
+
+Classes/Screens/MenuScroller.o: Classes/Screens/MenuScroller.cpp.o
+
+.PHONY : Classes/Screens/MenuScroller.o
+
+# target to build an object file
+Classes/Screens/MenuScroller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.o
+.PHONY : Classes/Screens/MenuScroller.cpp.o
+
+Classes/Screens/MenuScroller.i: Classes/Screens/MenuScroller.cpp.i
+
+.PHONY : Classes/Screens/MenuScroller.i
+
+# target to preprocess a source file
+Classes/Screens/MenuScroller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.i
+.PHONY : Classes/Screens/MenuScroller.cpp.i
+
+Classes/Screens/MenuScroller.s: Classes/Screens/MenuScroller.cpp.s
+
+.PHONY : Classes/Screens/MenuScroller.s
+
+# target to generate assembly for a file
+Classes/Screens/MenuScroller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.s
+.PHONY : Classes/Screens/MenuScroller.cpp.s
 
 main.o: main.cpp.o
 
@@ -287,18 +368,27 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Connect_Four"
-	@echo "... Classes/GUI/GameBoardManager.o"
-	@echo "... Classes/GUI/GameBoardManager.i"
-	@echo "... Classes/GUI/GameBoardManager.s"
-	@echo "... Classes/GUI/MenuScroller.o"
-	@echo "... Classes/GUI/MenuScroller.i"
-	@echo "... Classes/GUI/MenuScroller.s"
-	@echo "... Classes/Player/Player.o"
-	@echo "... Classes/Player/Player.i"
-	@echo "... Classes/Player/Player.s"
-	@echo "... Classes/Player/VeiGoBot.o"
-	@echo "... Classes/Player/VeiGoBot.i"
-	@echo "... Classes/Player/VeiGoBot.s"
+	@echo "... Classes/Managers/GameBoardManager.o"
+	@echo "... Classes/Managers/GameBoardManager.i"
+	@echo "... Classes/Managers/GameBoardManager.s"
+	@echo "... Classes/Managers/GameManager.o"
+	@echo "... Classes/Managers/GameManager.i"
+	@echo "... Classes/Managers/GameManager.s"
+	@echo "... Classes/Players/Player.o"
+	@echo "... Classes/Players/Player.i"
+	@echo "... Classes/Players/Player.s"
+	@echo "... Classes/Players/VeiGoBot.o"
+	@echo "... Classes/Players/VeiGoBot.i"
+	@echo "... Classes/Players/VeiGoBot.s"
+	@echo "... Classes/Screens/GameBoard.o"
+	@echo "... Classes/Screens/GameBoard.i"
+	@echo "... Classes/Screens/GameBoard.s"
+	@echo "... Classes/Screens/MainMenu.o"
+	@echo "... Classes/Screens/MainMenu.i"
+	@echo "... Classes/Screens/MainMenu.s"
+	@echo "... Classes/Screens/MenuScroller.o"
+	@echo "... Classes/Screens/MenuScroller.i"
+	@echo "... Classes/Screens/MenuScroller.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

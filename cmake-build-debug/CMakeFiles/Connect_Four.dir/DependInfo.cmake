@@ -4,10 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kirlos/CLionProjects/Connect Four/Classes/GUI/GameBoardManager.cpp" "/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles/Connect_Four.dir/Classes/GUI/GameBoardManager.cpp.o"
-  "/home/kirlos/CLionProjects/Connect Four/Classes/GUI/MenuScroller.cpp" "/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles/Connect_Four.dir/Classes/GUI/MenuScroller.cpp.o"
-  "/home/kirlos/CLionProjects/Connect Four/Classes/Player/Player.cpp" "/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles/Connect_Four.dir/Classes/Player/Player.cpp.o"
-  "/home/kirlos/CLionProjects/Connect Four/Classes/Player/VeiGoBot.cpp" "/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles/Connect_Four.dir/Classes/Player/VeiGoBot.cpp.o"
+  "/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameBoardManager.cpp" "/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles/Connect_Four.dir/Classes/Managers/GameBoardManager.cpp.o"
+  "/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameManager.cpp" "/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o"
+  "/home/kirlos/CLionProjects/Connect Four/Classes/Players/Player.cpp" "/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles/Connect_Four.dir/Classes/Players/Player.cpp.o"
+  "/home/kirlos/CLionProjects/Connect Four/Classes/Players/VeiGoBot.cpp" "/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.o"
+  "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/GameBoard.cpp" "/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.o"
+  "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MainMenu.cpp" "/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.o"
+  "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.cpp" "/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.o"
   "/home/kirlos/CLionProjects/Connect Four/main.cpp" "/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles/Connect_Four.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
