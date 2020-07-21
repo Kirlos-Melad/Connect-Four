@@ -29,7 +29,6 @@ private: // Methods
 
 public: //Methods
 	GameBoardManager();
-	void startNewGame();
     int findWinner();
     int** getBoardCopy();
     ~GameBoardManager();

@@ -90,16 +90,20 @@ void GameManager::gameboard() {
     p2.setTurn(SECOND_PLAYER);
     p2.setColor('b');
 
-    GameBoard gameBoard(screenWidth, screenHeight, p1, p2);
+    GameBoard gameBoard(screenWidth, screenHeight);
+    const int xOffSet = gameBoard.getXOffSet();
 
     while(window.isOpen()) {
         sf::Event event;
         while (window.pollEvent(event)) {
             if (event.type == sf::Event::MouseButtonReleased){
-                if (event.key.code == sf::Mouse::Left){
+                if (event.mouseButton.button == sf::Mouse::Left){
                     int xPosition = sf::Mouse::getPosition(window).x;
-                    if(xPosition < 100){
-                        //gameBoardManager.insertPieceAt(p1.getTurn(), 0);
+
+                    for(int i = 1; i <= COLUMN_COUNT; i++){
+                        if(xPosition < xOffSet + (110 * i) && xPosition > xOffSet + (110 * (i - 1))){
+                            gameBoardManager.insertPieceAt(p1.getTurn(), i - 1);
+                        }
                     }
                 }
             }

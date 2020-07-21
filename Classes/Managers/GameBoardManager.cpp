@@ -7,10 +7,6 @@
 
 #include "GameBoardManager.h"
 GameBoardManager::GameBoardManager() {
-	startNewGame();
-}
-
-void GameBoardManager::startNewGame() {
     for (int i = 0; i < ROW_COUNT; i++) {
         for (int j = 0; j < COLUMN_COUNT; j++) {
             GameBoard[i][j] = EMPTY_SPOT; // player

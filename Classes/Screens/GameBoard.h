@@ -12,14 +12,18 @@
 
 class GameBoard{
 private:
-    sf::Sprite imgGameBoard, firstPlayer, secondPlayer;
-    sf::Texture gameboardTexture, redPieceTexture, bluePieceTexture;
+    sf::CircleShape circle;
+    sf::RectangleShape rectangle;
     int gameBoardPositions[ROW_COUNT][COLUMN_COUNT][2];
+    int xOffSet, yOffSet;
 
 public:
-    GameBoard(const float &width, const float &height, const Player &player1, const Player &player2);
+    GameBoard(const float &width, const float &height);
     ~GameBoard();
     void draw(sf::RenderWindow &window, int** gameboard);
+
+    const int getXOffSet() const;
+    const int getYOffSet() const;
 
 private:
     void destroyPointer(int** gameboard);
