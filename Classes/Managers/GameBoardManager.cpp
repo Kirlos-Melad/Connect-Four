@@ -11,11 +11,9 @@ GameBoardManager::GameBoardManager() {
 }
 
 void GameBoardManager::startNewGame() {
-    for (int i = 0; i < ROW_COUNT; i--) {
+    for (int i = 0; i < ROW_COUNT; i++) {
         for (int j = 0; j < COLUMN_COUNT; j++) {
-            GameBoard[i][j][0] = j * 100; // x
-            GameBoard[i][j][1] = i * 100; // y
-            GameBoard[i][j][2] = 0; // player
+            GameBoard[i][j] = EMPTY_SPOT; // player
         }
     }
 
@@ -26,7 +24,7 @@ void GameBoardManager::Initialize_AvailablePositions() {
 	AvailablePositions.clear();
 	for (int i = 0; i < ROW_COUNT; i++) {
 		for (int j = 0; j < COLUMN_COUNT; j++) {
-			if (GameBoard[j][i][INFORMATION_LEVEL - 1] == 0) {
+			if (GameBoard[j][i] == 0) {
 				AvailablePositions.push_back(std::make_pair(i, j));
 				break;
 			}
@@ -46,14 +44,14 @@ int GameBoardManager::AvailablePositionsCheck(int x) {
 void GameBoardManager::Vertical_GameBoard_Check() {
 	for (int i = 0; i < ROW_COUNT; i++) {
 		for (int j = 0; j < COLUMN_COUNT; j++) {
-			if (GameBoard[j][i][INFORMATION_LEVEL - 1] == 1 && checkplayer1 < 4) {
+			if (GameBoard[j][i] == 1 && checkplayer1 < 4) {
 				checkplayer1++;
 				checkplayer2 = 0;
 				if (checkplayer1 == 4) {
 					player_1 = true;
 				}
 			}
-			else if (GameBoard[j][i][INFORMATION_LEVEL - 1] == 2 && checkplayer2 < 4) {
+			else if (GameBoard[j][i] == 2 && checkplayer2 < 4) {
 				checkplayer2++;
 				checkplayer1 = 0;
 				if (checkplayer2 == 4) {
@@ -75,14 +73,14 @@ void GameBoardManager::Vertical_GameBoard_Check() {
 void GameBoardManager::Horizontal_GameBoard_Check() {
 	for (int i = 0; i < ROW_COUNT; i++) {
 		for (int j = 0; j < COLUMN_COUNT; j++) {
-			if (GameBoard[i][j][INFORMATION_LEVEL - 1] == 1 && checkplayer1 < 4) {
+			if (GameBoard[i][j] == 1 && checkplayer1 < 4) {
 				checkplayer1++;
 				checkplayer2 = 0;
 				if (checkplayer1 == 4) {
 					player_1 = true;
 				}
 			}
-			else if (GameBoard[i][j][INFORMATION_LEVEL - 1] == 2 && checkplayer2 < 4) {
+			else if (GameBoard[i][j] == 2 && checkplayer2 < 4) {
 				checkplayer2++;
 				checkplayer1 = 0;
 				if (checkplayer2 == 4) {
@@ -107,14 +105,14 @@ void GameBoardManager::Diagonal1_1_GameBoard_Check() {
 		for (int i = 0; i < ROW_COUNT; i++) {
 			for (int j = 0; j < COLUMN_COUNT; j++) {
 				if (j - i == constant1) {
-					if (GameBoard[i][j][INFORMATION_LEVEL - 1] == 1 && checkplayer1 < 4) {
+					if (GameBoard[i][j] == 1 && checkplayer1 < 4) {
 						checkplayer1++;
 						checkplayer2 = 0;
 						if (checkplayer1 == 4) {
 							player_1 = true;
 						}
 					}
-					else if (GameBoard[i][j][INFORMATION_LEVEL - 1] == 2 && checkplayer2 < 4) {
+					else if (GameBoard[i][j] == 2 && checkplayer2 < 4) {
 						checkplayer2++;
 						checkplayer1 = 0;
 						if (checkplayer2 == 4) {
@@ -142,14 +140,14 @@ void GameBoardManager::Diagonal1_2_GameBoard_Check() {
 		for (int i = 0; i < ROW_COUNT; i++) {
 			for (int j = 0; j < COLUMN_COUNT; j++) {
 				if (i - j == constant1) {
-					if (GameBoard[i][j][INFORMATION_LEVEL - 1] == 1 && checkplayer1 < 4) {
+					if (GameBoard[i][j] == 1 && checkplayer1 < 4) {
 						checkplayer1++;
 						checkplayer2 = 0;
 						if (checkplayer1 == 4) {
 							player_1 = true;
 						}
 					}
-					else if (GameBoard[i][j][INFORMATION_LEVEL - 1] == 2 && checkplayer2 < 4) {
+					else if (GameBoard[i][j] == 2 && checkplayer2 < 4) {
 						checkplayer2++;
 						checkplayer1 = 0;
 						if (checkplayer2 == 4) {
@@ -177,14 +175,14 @@ void GameBoardManager::Diagonal2_GameBoard_Check() {
 		for (int i = 0; i < ROW_COUNT; i++) {
 			for (int j = 0; j < COLUMN_COUNT; j++) {
 				if (i + j == constant1) {
-					if (GameBoard[i][j][INFORMATION_LEVEL - 1] == 1 && checkplayer1 < 4) {
+					if (GameBoard[i][j] == 1 && checkplayer1 < 4) {
 						checkplayer1++;
 						checkplayer2 = 0;
 						if (checkplayer1 == 4) {
 							player_1 = true;
 						}
 					}
-					else if (GameBoard[i][j][INFORMATION_LEVEL - 1] == 2 && checkplayer2 < 4) {
+					else if (GameBoard[i][j] == 2 && checkplayer2 < 4) {
 						checkplayer2++;
 						checkplayer1 = 0;
 						if (checkplayer2 == 4) {
@@ -229,20 +227,35 @@ int GameBoardManager::findWinner() {
 
 void GameBoardManager::insertPieceAt(int k, int x)
 {
-    GameBoard[AvailablePositionsCheck(x)][x][INFORMATION_LEVEL - 1] = k;
+    GameBoard[AvailablePositionsCheck(x)][x] = k;
 	Initialize_AvailablePositions();
 }
 
 void GameBoardManager::redoInsertion(int x, int y) {
-        GameBoard[y][x][INFORMATION_LEVEL - 1] = 0;
-        Initialize_AvailablePositions();
+    GameBoard[y][x] = 0;
+    Initialize_AvailablePositions();
+}
+
+
+int GameBoardManager::getCurrentSpot(int x, int y) {
+    return GameBoard[y][x];
+}
+
+int** GameBoardManager::getBoardCopy() {
+    int** copy = new int*[ROW_COUNT];
+    for(int i = 0; i < ROW_COUNT; i++)
+        copy[i] = new int[COLUMN_COUNT];
+
+    for(int i = 0; i < ROW_COUNT; i++){
+        for(int j = 0; j < COLUMN_COUNT; j++){
+            copy[i][j] = GameBoard[i][j];
+        }
+    }
+
+    return copy;
 }
 
 GameBoardManager::~GameBoardManager() {
 
-}
-
-int GameBoardManager::getCurrentSpot(int x, int y) {
-    return GameBoard[y][x][INFORMATION_LEVEL - 1];
 }
 

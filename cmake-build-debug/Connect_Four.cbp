@@ -124,7 +124,10 @@
 		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.h">
 			<Option target="Connect_Four"/>
 		</Unit>
-		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/headers.h">
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Headers/GameBoardBasic.h">
+			<Option target="Connect_Four"/>
+		</Unit>
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Headers/includes.h">
 			<Option target="Connect_Four"/>
 		</Unit>
 		<Unit filename="/home/kirlos/CLionProjects/Connect Four/main.cpp">

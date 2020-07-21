@@ -1,6 +1,7 @@
-
+#include "Classes/Managers/GameManager.h"
 int main(){
-
+    GameManager gm;
+    gm.start();
 
     return 0;
 }

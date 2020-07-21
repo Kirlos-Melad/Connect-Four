@@ -1,13 +1,13 @@
 #ifndef PLAYER_H_
 #define PLAYER_H_
 
-#include "../headers.h"
+#include "../../Headers/includes.h"
 
 class Player {
 private:
 	const std::string name;
 	char color; // red(r) or blue(b)
-	int turn; // 1 or 2
+	int turn;
 	bool winner;
 public:
 	Player(std::string name);

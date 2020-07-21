@@ -4,35 +4,48 @@
 CMakeFiles/Connect_Four.dir/Classes/Managers/GameBoardManager.cpp.o
  /home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameBoardManager.cpp
  /home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameBoardManager.h
- /home/kirlos/CLionProjects/Connect Four/Classes/headers.h
+ /home/kirlos/CLionProjects/Connect Four/Headers/GameBoardBasic.h
+ /home/kirlos/CLionProjects/Connect Four/Headers/includes.h
 CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o
+ /home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameBoardManager.h
  /home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameManager.cpp
  /home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameManager.h
+ /home/kirlos/CLionProjects/Connect Four/Classes/Players/Player.h
+ /home/kirlos/CLionProjects/Connect Four/Classes/Screens/GameBoard.h
  /home/kirlos/CLionProjects/Connect Four/Classes/Screens/MainMenu.h
  /home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.h
- /home/kirlos/CLionProjects/Connect Four/Classes/headers.h
+ /home/kirlos/CLionProjects/Connect Four/Headers/GameBoardBasic.h
+ /home/kirlos/CLionProjects/Connect Four/Headers/includes.h
 CMakeFiles/Connect_Four.dir/Classes/Players/Player.cpp.o
  /home/kirlos/CLionProjects/Connect Four/Classes/Players/Player.cpp
  /home/kirlos/CLionProjects/Connect Four/Classes/Players/Player.h
- /home/kirlos/CLionProjects/Connect Four/Classes/headers.h
+ /home/kirlos/CLionProjects/Connect Four/Headers/includes.h
 CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.o
  /home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameBoardManager.h
  /home/kirlos/CLionProjects/Connect Four/Classes/Players/Player.h
  /home/kirlos/CLionProjects/Connect Four/Classes/Players/VeiGoBot.cpp
  /home/kirlos/CLionProjects/Connect Four/Classes/Players/VeiGoBot.h
- /home/kirlos/CLionProjects/Connect Four/Classes/headers.h
+ /home/kirlos/CLionProjects/Connect Four/Headers/GameBoardBasic.h
+ /home/kirlos/CLionProjects/Connect Four/Headers/includes.h
 CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.o
+ /home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameBoardManager.h
+ /home/kirlos/CLionProjects/Connect Four/Classes/Players/Player.h
  /home/kirlos/CLionProjects/Connect Four/Classes/Screens/GameBoard.cpp
  /home/kirlos/CLionProjects/Connect Four/Classes/Screens/GameBoard.h
- /home/kirlos/CLionProjects/Connect Four/Classes/headers.h
+ /home/kirlos/CLionProjects/Connect Four/Headers/GameBoardBasic.h
+ /home/kirlos/CLionProjects/Connect Four/Headers/includes.h
 CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.o
  /home/kirlos/CLionProjects/Connect Four/Classes/Screens/MainMenu.cpp
  /home/kirlos/CLionProjects/Connect Four/Classes/Screens/MainMenu.h
  /home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.h
- /home/kirlos/CLionProjects/Connect Four/Classes/headers.h
+ /home/kirlos/CLionProjects/Connect Four/Headers/includes.h
 CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.o
  /home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.cpp
  /home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.h
- /home/kirlos/CLionProjects/Connect Four/Classes/headers.h
+ /home/kirlos/CLionProjects/Connect Four/Headers/includes.h
 CMakeFiles/Connect_Four.dir/main.cpp.o
+ /home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameManager.h
+ /home/kirlos/CLionProjects/Connect Four/Classes/Screens/MainMenu.h
+ /home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.h
+ /home/kirlos/CLionProjects/Connect Four/Headers/includes.h
  /home/kirlos/CLionProjects/Connect Four/main.cpp

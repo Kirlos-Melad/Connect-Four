@@ -5,7 +5,7 @@
 #ifndef CONNECT_FOUR_MENUSCROLLER_H
 #define CONNECT_FOUR_MENUSCROLLER_H
 
-#include "../headers.h"
+#include "../../Headers/includes.h"
 
 class MenuScroller {
 private:

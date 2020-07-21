@@ -3,36 +3,49 @@
 
 CMakeFiles/Connect_Four.dir/Classes/Managers/GameBoardManager.cpp.o: ../Classes/Managers/GameBoardManager.cpp
 CMakeFiles/Connect_Four.dir/Classes/Managers/GameBoardManager.cpp.o: ../Classes/Managers/GameBoardManager.h
-CMakeFiles/Connect_Four.dir/Classes/Managers/GameBoardManager.cpp.o: ../Classes/headers.h
+CMakeFiles/Connect_Four.dir/Classes/Managers/GameBoardManager.cpp.o: ../Headers/GameBoardBasic.h
+CMakeFiles/Connect_Four.dir/Classes/Managers/GameBoardManager.cpp.o: ../Headers/includes.h
 
+CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o: ../Classes/Managers/GameBoardManager.h
 CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o: ../Classes/Managers/GameManager.cpp
 CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o: ../Classes/Managers/GameManager.h
+CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o: ../Classes/Players/Player.h
+CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o: ../Classes/Screens/GameBoard.h
 CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o: ../Classes/Screens/MainMenu.h
 CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o: ../Classes/Screens/MenuScroller.h
-CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o: ../Classes/headers.h
+CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o: ../Headers/GameBoardBasic.h
+CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o: ../Headers/includes.h
 
 CMakeFiles/Connect_Four.dir/Classes/Players/Player.cpp.o: ../Classes/Players/Player.cpp
 CMakeFiles/Connect_Four.dir/Classes/Players/Player.cpp.o: ../Classes/Players/Player.h
-CMakeFiles/Connect_Four.dir/Classes/Players/Player.cpp.o: ../Classes/headers.h
+CMakeFiles/Connect_Four.dir/Classes/Players/Player.cpp.o: ../Headers/includes.h
 
 CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.o: ../Classes/Managers/GameBoardManager.h
 CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.o: ../Classes/Players/Player.h
 CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.o: ../Classes/Players/VeiGoBot.cpp
 CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.o: ../Classes/Players/VeiGoBot.h
-CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.o: ../Classes/headers.h
+CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.o: ../Headers/GameBoardBasic.h
+CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.o: ../Headers/includes.h
 
+CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.o: ../Classes/Managers/GameBoardManager.h
+CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.o: ../Classes/Players/Player.h
 CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.o: ../Classes/Screens/GameBoard.cpp
 CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.o: ../Classes/Screens/GameBoard.h
-CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.o: ../Classes/headers.h
+CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.o: ../Headers/GameBoardBasic.h
+CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.o: ../Headers/includes.h
 
 CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.o: ../Classes/Screens/MainMenu.cpp
 CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.o: ../Classes/Screens/MainMenu.h
 CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.o: ../Classes/Screens/MenuScroller.h
-CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.o: ../Classes/headers.h
+CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.o: ../Headers/includes.h
 
 CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.o: ../Classes/Screens/MenuScroller.cpp
 CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.o: ../Classes/Screens/MenuScroller.h
-CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.o: ../Classes/headers.h
+CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.o: ../Headers/includes.h
 
+CMakeFiles/Connect_Four.dir/main.cpp.o: ../Classes/Managers/GameManager.h
+CMakeFiles/Connect_Four.dir/main.cpp.o: ../Classes/Screens/MainMenu.h
+CMakeFiles/Connect_Four.dir/main.cpp.o: ../Classes/Screens/MenuScroller.h
+CMakeFiles/Connect_Four.dir/main.cpp.o: ../Headers/includes.h
 CMakeFiles/Connect_Four.dir/main.cpp.o: ../main.cpp
 

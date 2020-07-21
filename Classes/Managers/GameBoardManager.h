@@ -1,22 +1,14 @@
 #ifndef GAMEBOARDMANAGER_H_
 #define GAMEBOARDMANAGER_H_
 
-#include "../headers.h"
-
-//Game Board
-#define ROW_COUNT 8
-#define COLUMN_COUNT 8
-
-//Information
-#define FIRST_PLAYER 1
-#define SECOND_PLAYER 2
-#define EMPTY_SPOT 0
+#include "../../Headers/includes.h"
+#include "../../Headers/GameBoardBasic.h"
 
 class GameBoardManager {
-#define INFORMATION_LEVEL 3 // level 0 = x in the img, level 1 = y in the img, level 2 = player turn
 
 private: // Attributes
-	int GameBoard[ROW_COUNT][COLUMN_COUNT][INFORMATION_LEVEL];
+    int GameBoard[ROW_COUNT][COLUMN_COUNT];
+
     //Maybe use of not
     std::vector<std::pair<int, int>> AvailablePositions;
 
@@ -39,7 +31,7 @@ public: //Methods
 	GameBoardManager();
 	void startNewGame();
     int findWinner();
-    bool movesLeft(){ return !AvailablePositions.empty(); }
+    int** getBoardCopy();
     ~GameBoardManager();
 
     //Try to get rid of them
@@ -47,8 +39,9 @@ public: //Methods
 	void redoInsertion(int x, int y);
     int getCurrentSpot(int x, int y);
 
-    //Maybe use of not
+    //Maybe use or not
     int AvailablePositionsCheck(int x);
+    bool movesLeft(){ return !AvailablePositions.empty(); }
 };
 
 #endif /* GAMEBOARDMANAGER_H_ */

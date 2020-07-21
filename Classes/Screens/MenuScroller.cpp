@@ -5,6 +5,7 @@
 #include "MenuScroller.h"
 
 MenuScroller::MenuScroller(float width, float height, sf::Font &font, int numberOfItems) {
+    this->numberOfItems = numberOfItems;
     menu = new sf::Text[numberOfItems];
     selectedItemIndex = 0;
 }

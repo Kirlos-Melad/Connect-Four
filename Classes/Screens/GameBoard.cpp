@@ -4,29 +4,76 @@
 
 #include "GameBoard.h"
 
-GameBoard::GameBoard() {
-    sf::Texture textureGameBoard;
-    if(!textureGameBoard.loadFromFile("../../Assets/GameBoard.png")){
+GameBoard::GameBoard(const float &width, const float &height, const Player &player1, const Player &player2) {
+
+    if(!gameboardTexture.loadFromFile("../Assets/GameBoard.png")){
         std::cout << "../../Assets/GameBoard.png not found.\nGame Board aborted.";
         //do some
     }
-    GameBoard.setTexture(textureGameBoard);
-}
+    if(!redPieceTexture.loadFromFile("../Assets/redPiece.png")){
+        std::cout << "../../Assets/GameBoard.png not found.\nGame Board aborted.";
+        //do some
+    }
+    if(!bluePieceTexture.loadFromFile("../Assets/bluePiece.png")){
+        std::cout << "../../Assets/GameBoard.png not found.\nGame Board aborted.";
+        //do some
+    }
 
-void GameBoard::draw(sf::RenderWindow &window, sf::Sprite firstPlayer, sf::Sprite secondPlayer) {
-    window.draw(GameBoard);
+    imgGameBoard.setTexture(gameboardTexture);
+    imgGameBoard.setPosition(width / 2 - 400, height / 2 - 400);
+
+    if(player1.getTurn() == FIRST_PLAYER){
+        if(player1.getColor() == 'r'){
+            firstPlayer.setTexture(redPieceTexture);
+            secondPlayer.setTexture(bluePieceTexture);
+        }else{
+            firstPlayer.setTexture(bluePieceTexture);
+            secondPlayer.setTexture(redPieceTexture);
+        }
+    }else {
+        if(player2.getColor() == 'r'){
+            firstPlayer.setTexture(redPieceTexture);
+            secondPlayer.setTexture(bluePieceTexture);
+        }else{
+            firstPlayer.setTexture(bluePieceTexture);
+            secondPlayer.setTexture(redPieceTexture);
+        }
+    }
+
+
 
     for (int i = ROW_COUNT - 1; i >= 0; i--) {
         for (int j = 0; j < COLUMN_COUNT; j++) {
-            if(GameBoard[i][j][2] == FIRST_PLAYER){
-                firstPlayer.setPosition(GameBoard[i][j][0], GameBoard[i][j][1]);
+            gameBoardPositions[i][j][0] = j * 100;
+            gameBoardPositions[i][j][1] = i * 100;
+        }
+    }
+}
+
+void GameBoard::draw(sf::RenderWindow &window, int** gameboard) {
+    window.draw(imgGameBoard);
+
+    for (int i = ROW_COUNT - 1; i >= 0; i--) {
+        for (int j = 0; j < COLUMN_COUNT; j++) {
+            if(gameboard[i][j] == FIRST_PLAYER){
+                firstPlayer.setPosition(gameBoardPositions[i][j][0], gameBoardPositions[i][j][1]);
                 window.draw(firstPlayer);
-            } else if(GameBoard[i][j][2] == SECOND_PLAYER){
-                secondPlayer.setPosition(GameBoard[i][j][0], GameBoard[i][j][1]);
+            } else if(gameboard[i][j] == SECOND_PLAYER){
+                secondPlayer.setPosition(gameBoardPositions[i][j][0], gameBoardPositions[i][j][1]);
                 window.draw(secondPlayer);
             }
         }
     }
+
+    destroyPointer(gameboard);
+}
+
+void GameBoard::destroyPointer(int **gameboard) {
+    for (int i = ROW_COUNT - 1; i >= 0; i--) {
+        delete [] gameboard[i];
+    }
+
+    delete [] gameboard;
 }
 
 GameBoard::~GameBoard() {
