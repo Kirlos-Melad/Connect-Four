@@ -278,6 +278,33 @@ Classes/Screens/GameBoard.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.s
 .PHONY : Classes/Screens/GameBoard.cpp.s
 
+Classes/Screens/GameType.o: Classes/Screens/GameType.cpp.o
+
+.PHONY : Classes/Screens/GameType.o
+
+# target to build an object file
+Classes/Screens/GameType.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/GameType.cpp.o
+.PHONY : Classes/Screens/GameType.cpp.o
+
+Classes/Screens/GameType.i: Classes/Screens/GameType.cpp.i
+
+.PHONY : Classes/Screens/GameType.i
+
+# target to preprocess a source file
+Classes/Screens/GameType.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/GameType.cpp.i
+.PHONY : Classes/Screens/GameType.cpp.i
+
+Classes/Screens/GameType.s: Classes/Screens/GameType.cpp.s
+
+.PHONY : Classes/Screens/GameType.s
+
+# target to generate assembly for a file
+Classes/Screens/GameType.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/GameType.cpp.s
+.PHONY : Classes/Screens/GameType.cpp.s
+
 Classes/Screens/MainMenu.o: Classes/Screens/MainMenu.cpp.o
 
 .PHONY : Classes/Screens/MainMenu.o
@@ -332,6 +359,60 @@ Classes/Screens/MenuScroller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.s
 .PHONY : Classes/Screens/MenuScroller.cpp.s
 
+Classes/Screens/OnePlayer.o: Classes/Screens/OnePlayer.cpp.o
+
+.PHONY : Classes/Screens/OnePlayer.o
+
+# target to build an object file
+Classes/Screens/OnePlayer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/OnePlayer.cpp.o
+.PHONY : Classes/Screens/OnePlayer.cpp.o
+
+Classes/Screens/OnePlayer.i: Classes/Screens/OnePlayer.cpp.i
+
+.PHONY : Classes/Screens/OnePlayer.i
+
+# target to preprocess a source file
+Classes/Screens/OnePlayer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/OnePlayer.cpp.i
+.PHONY : Classes/Screens/OnePlayer.cpp.i
+
+Classes/Screens/OnePlayer.s: Classes/Screens/OnePlayer.cpp.s
+
+.PHONY : Classes/Screens/OnePlayer.s
+
+# target to generate assembly for a file
+Classes/Screens/OnePlayer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/OnePlayer.cpp.s
+.PHONY : Classes/Screens/OnePlayer.cpp.s
+
+Classes/Screens/TextField.o: Classes/Screens/TextField.cpp.o
+
+.PHONY : Classes/Screens/TextField.o
+
+# target to build an object file
+Classes/Screens/TextField.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/TextField.cpp.o
+.PHONY : Classes/Screens/TextField.cpp.o
+
+Classes/Screens/TextField.i: Classes/Screens/TextField.cpp.i
+
+.PHONY : Classes/Screens/TextField.i
+
+# target to preprocess a source file
+Classes/Screens/TextField.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/TextField.cpp.i
+.PHONY : Classes/Screens/TextField.cpp.i
+
+Classes/Screens/TextField.s: Classes/Screens/TextField.cpp.s
+
+.PHONY : Classes/Screens/TextField.s
+
+# target to generate assembly for a file
+Classes/Screens/TextField.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/TextField.cpp.s
+.PHONY : Classes/Screens/TextField.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -383,12 +464,21 @@ help:
 	@echo "... Classes/Screens/GameBoard.o"
 	@echo "... Classes/Screens/GameBoard.i"
 	@echo "... Classes/Screens/GameBoard.s"
+	@echo "... Classes/Screens/GameType.o"
+	@echo "... Classes/Screens/GameType.i"
+	@echo "... Classes/Screens/GameType.s"
 	@echo "... Classes/Screens/MainMenu.o"
 	@echo "... Classes/Screens/MainMenu.i"
 	@echo "... Classes/Screens/MainMenu.s"
 	@echo "... Classes/Screens/MenuScroller.o"
 	@echo "... Classes/Screens/MenuScroller.i"
 	@echo "... Classes/Screens/MenuScroller.s"
+	@echo "... Classes/Screens/OnePlayer.o"
+	@echo "... Classes/Screens/OnePlayer.i"
+	@echo "... Classes/Screens/OnePlayer.s"
+	@echo "... Classes/Screens/TextField.o"
+	@echo "... Classes/Screens/TextField.i"
+	@echo "... Classes/Screens/TextField.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

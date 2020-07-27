@@ -5,6 +5,7 @@
 #include "GameManager.h"
 #include "GameBoardManager.h"
 #include "../Screens/GameBoard.h"
+#include "../Players/VeiGoBot.h"
 
 GameManager::GameManager() {
     //Handle Sound
@@ -83,15 +84,17 @@ void GameManager::gameboard() {
     GameBoardManager gameBoardManager;
 
     //DELETE PLAYERS
-    Player p1("p1"), p2("p2");
+    Player p1("p1");
     p1.setTurn(FIRST_PLAYER);
     p1.setColor('r');
 
+    VeiGoBot p2;
     p2.setTurn(SECOND_PLAYER);
     p2.setColor('b');
 
     GameBoard gameBoard(screenWidth, screenHeight);
     const int xOffSet = gameBoard.getXOffSet();
+    int switcher = 0;
 
     while(window.isOpen()) {
         sf::Event event;
@@ -102,11 +105,23 @@ void GameManager::gameboard() {
 
                     for(int i = 1; i <= COLUMN_COUNT; i++){
                         if(xPosition < xOffSet + (110 * i) && xPosition > xOffSet + (110 * (i - 1))){
-                            gameBoardManager.insertPieceAt(p1.getTurn(), i - 1);
+                            //gameBoardManager.insertPieceAt(((switcher % 2) + 1 == 1 ? p1.getTurn() : p2.getTurn()), i - 1);
+                            if((switcher % 2) + 1 == 1){
+                                gameBoardManager.insertPieceAt(p1.getTurn(), i - 1);
+                            }
+                            else{
+                                //p2.veigoPlay(gameBoardManager);
+                            }
+                            switcher++;
+                            break;
                         }
                     }
                 }
             }
+        }
+        if((switcher % 2) + 1 == 2){
+            p2.veigoPlay(gameBoardManager);
+            switcher++;
         }
         window.clear();
         gameBoard.draw(window, gameBoardManager.getBoardCopy());

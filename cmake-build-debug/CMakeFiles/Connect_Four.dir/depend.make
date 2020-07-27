@@ -10,6 +10,7 @@ CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o: ../Classes/Manag
 CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o: ../Classes/Managers/GameManager.cpp
 CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o: ../Classes/Managers/GameManager.h
 CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o: ../Classes/Players/Player.h
+CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o: ../Classes/Players/VeiGoBot.h
 CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o: ../Classes/Screens/GameBoard.h
 CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o: ../Classes/Screens/MainMenu.h
 CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o: ../Classes/Screens/MenuScroller.h
@@ -34,6 +35,11 @@ CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.o: ../Classes/Screens/
 CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.o: ../Headers/GameBoardBasic.h
 CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.o: ../Headers/includes.h
 
+CMakeFiles/Connect_Four.dir/Classes/Screens/GameType.cpp.o: ../Classes/Screens/GameType.cpp
+CMakeFiles/Connect_Four.dir/Classes/Screens/GameType.cpp.o: ../Classes/Screens/GameType.h
+CMakeFiles/Connect_Four.dir/Classes/Screens/GameType.cpp.o: ../Classes/Screens/MenuScroller.h
+CMakeFiles/Connect_Four.dir/Classes/Screens/GameType.cpp.o: ../Headers/includes.h
+
 CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.o: ../Classes/Screens/MainMenu.cpp
 CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.o: ../Classes/Screens/MainMenu.h
 CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.o: ../Classes/Screens/MenuScroller.h
@@ -43,9 +49,20 @@ CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.o: ../Classes/Scree
 CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.o: ../Classes/Screens/MenuScroller.h
 CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.o: ../Headers/includes.h
 
+CMakeFiles/Connect_Four.dir/Classes/Screens/OnePlayer.cpp.o: ../Classes/Screens/MenuScroller.h
+CMakeFiles/Connect_Four.dir/Classes/Screens/OnePlayer.cpp.o: ../Classes/Screens/OnePlayer.cpp
+CMakeFiles/Connect_Four.dir/Classes/Screens/OnePlayer.cpp.o: ../Classes/Screens/OnePlayer.h
+CMakeFiles/Connect_Four.dir/Classes/Screens/OnePlayer.cpp.o: ../Classes/Screens/TextField.h
+CMakeFiles/Connect_Four.dir/Classes/Screens/OnePlayer.cpp.o: ../Headers/includes.h
+
+CMakeFiles/Connect_Four.dir/Classes/Screens/TextField.cpp.o: ../Classes/Screens/TextField.cpp
+CMakeFiles/Connect_Four.dir/Classes/Screens/TextField.cpp.o: ../Classes/Screens/TextField.h
+CMakeFiles/Connect_Four.dir/Classes/Screens/TextField.cpp.o: ../Headers/includes.h
+
 CMakeFiles/Connect_Four.dir/main.cpp.o: ../Classes/Managers/GameManager.h
 CMakeFiles/Connect_Four.dir/main.cpp.o: ../Classes/Screens/MainMenu.h
 CMakeFiles/Connect_Four.dir/main.cpp.o: ../Classes/Screens/MenuScroller.h
+CMakeFiles/Connect_Four.dir/main.cpp.o: ../Classes/Screens/TextField.h
 CMakeFiles/Connect_Four.dir/main.cpp.o: ../Headers/includes.h
 CMakeFiles/Connect_Four.dir/main.cpp.o: ../main.cpp
 

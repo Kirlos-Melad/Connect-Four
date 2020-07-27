@@ -25,7 +25,7 @@ int VeiGoBot::getBestMove() {
 			//do
 			myGBManager->insertPieceAt(getTurn(), i);
 			//call
-			int moveVal = minimax(6, false, -INF, INF);
+			int moveVal = minimax(5, false, -INF, INF);
 			//undo
 			myGBManager->redoInsertion(i, y);
 			if (moveVal > bestVal) {

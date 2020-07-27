@@ -6,49 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameBoardManager.h
-../../Headers/includes.h
-/home/kirlos/CLionProjects/Connect Four/Headers/includes.h
-../../Headers/GameBoardBasic.h
-/home/kirlos/CLionProjects/Connect Four/Headers/GameBoardBasic.h
-
-/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameManager.cpp
-GameManager.h
-/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameManager.h
-GameBoardManager.h
-/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameBoardManager.h
-../Screens/GameBoard.h
-/home/kirlos/CLionProjects/Connect Four/Classes/Screens/GameBoard.h
-
-/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameManager.h
-../../Headers/includes.h
-/home/kirlos/CLionProjects/Connect Four/Headers/includes.h
-../Screens/MainMenu.h
-/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MainMenu.h
-
-/home/kirlos/CLionProjects/Connect Four/Classes/Players/Player.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.h
 ../../Headers/includes.h
 /home/kirlos/CLionProjects/Connect Four/Headers/includes.h
 
-/home/kirlos/CLionProjects/Connect Four/Classes/Screens/GameBoard.h
-../../Headers/includes.h
-/home/kirlos/CLionProjects/Connect Four/Headers/includes.h
-../../Headers/GameBoardBasic.h
-/home/kirlos/CLionProjects/Connect Four/Headers/GameBoardBasic.h
-../Managers/GameBoardManager.h
-/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameBoardManager.h
-../Players/Player.h
-/home/kirlos/CLionProjects/Connect Four/Classes/Players/Player.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Screens/OnePlayer.cpp
+OnePlayer.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Screens/OnePlayer.h
 
-/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MainMenu.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Screens/OnePlayer.h
 MenuScroller.h
 /home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.h
+TextField.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Screens/TextField.h
 
-/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Screens/TextField.h
 ../../Headers/includes.h
 /home/kirlos/CLionProjects/Connect Four/Headers/includes.h
-
-/home/kirlos/CLionProjects/Connect Four/Headers/GameBoardBasic.h
 
 /home/kirlos/CLionProjects/Connect Four/Headers/includes.h
 bits/stdc++.h

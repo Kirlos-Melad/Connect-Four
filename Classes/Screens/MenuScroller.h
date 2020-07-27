@@ -7,6 +7,9 @@
 
 #include "../../Headers/includes.h"
 
+#define X_OFFSET 128
+#define FONT_SIZE 50
+
 class MenuScroller {
 private:
     int numberOfItems, selectedItemIndex;

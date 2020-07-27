@@ -1,4 +1,7 @@
 #include "Classes/Managers/GameManager.h"
+
+#include "Classes/Screens/TextField.h"
+
 int main(){
     GameManager gm;
     gm.start();
