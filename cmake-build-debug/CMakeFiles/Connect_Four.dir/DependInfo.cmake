@@ -10,10 +10,12 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/kirlos/CLionProjects/Connect Four/Classes/Players/VeiGoBot.cpp" "/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.o"
   "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/GameBoard.cpp" "/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.o"
   "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/GameType.cpp" "/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles/Connect_Four.dir/Classes/Screens/GameType.cpp.o"
+  "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/InputHandler.cpp" "/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles/Connect_Four.dir/Classes/Screens/InputHandler.cpp.o"
   "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MainMenu.cpp" "/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.o"
   "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.cpp" "/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.o"
   "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/OnePlayer.cpp" "/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles/Connect_Four.dir/Classes/Screens/OnePlayer.cpp.o"
   "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/TextField.cpp" "/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles/Connect_Four.dir/Classes/Screens/TextField.cpp.o"
+  "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/TwoPlayer.cpp" "/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles/Connect_Four.dir/Classes/Screens/TwoPlayer.cpp.o"
   "/home/kirlos/CLionProjects/Connect Four/main.cpp" "/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles/Connect_Four.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

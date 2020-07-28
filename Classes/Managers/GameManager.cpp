@@ -4,6 +4,8 @@
 
 #include "GameManager.h"
 #include "GameBoardManager.h"
+#include "../Screens/GameType.h"
+#include "../Screens/OnePlayer.h"
 #include "../Screens/GameBoard.h"
 #include "../Players/VeiGoBot.h"
 
@@ -38,7 +40,7 @@ GameManager::GameManager() {
     backGround.setTexture(textureBackGround);
 }
 
-void GameManager::start() {
+void GameManager::Start() {
     MainMenu mainMenu(window.getSize().x, window.getSize().y, font);
 
     while(window.isOpen()){
@@ -56,7 +58,7 @@ void GameManager::start() {
                 else if (event.key.code == sf::Keyboard::Enter) {
                     int choosenItem = mainMenu.getPressedItem();
                     if(choosenItem == 0){
-                        gameboard();
+                        GameTypeMenu();
                     }
                     else if(choosenItem == 1){
 
@@ -80,7 +82,83 @@ void GameManager::start() {
     }
 }
 
-void GameManager::gameboard() {
+void GameManager::GameTypeMenu() {
+    GameType gameType(window.getSize().x, window.getSize().y, font);
+
+    while(window.isOpen()){
+        sf::Event event;
+        while (window.pollEvent(event)){
+            if (event.type == sf::Event::KeyReleased) {
+                if (event.key.code == sf::Keyboard::Up)
+                {
+                    gameType.moveUp();
+                }
+                else if (event.key.code == sf::Keyboard::Down)
+                {
+                    gameType.moveDown();
+                }
+                else if (event.key.code == sf::Keyboard::Enter) {
+                    int choosenItem = gameType.getPressedItem();
+                    if(choosenItem == 0){
+                        OnePlayerMenu();
+                    }
+                    else if(choosenItem == 1){
+
+                    }
+                    else if(choosenItem == 2){
+                        return;
+                    }
+                }
+            }
+        }
+        window.clear();
+        window.draw(backGround);
+        gameType.draw(window);
+        window.display();
+    }
+}
+
+void GameManager::OnePlayerMenu() {
+    OnePlayer onePlayer(window.getSize().x, window.getSize().y, font);
+
+    while(window.isOpen()){
+        sf::Event event;
+        while (window.pollEvent(event)){
+            if (event.type == sf::Event::KeyReleased) {
+                if (event.key.code == sf::Keyboard::Up)
+                {
+                    onePlayer.moveUp();
+                }
+                else if (event.key.code == sf::Keyboard::Down)
+                {
+                    onePlayer.moveDown();
+                }
+                else if (event.key.code == sf::Keyboard::Enter) {
+                    int choosenItem = onePlayer.getPressedItem();
+                    if(choosenItem == 0){
+                        onePlayer.setTextFieldFocus(!onePlayer.isTextFieldFocused());
+                    }
+                    else if(choosenItem == 1){
+                        //set players
+                        Play();
+                    }
+                    else if(choosenItem == 2){
+                        return;
+                    }
+                }
+            }
+            if(onePlayer.isTextFieldFocused()){
+                onePlayer.textInputHandler(event);
+            }
+        }
+        window.clear();
+        window.draw(backGround);
+        onePlayer.draw(window);
+        window.display();
+    }
+}
+
+void GameManager::Play() {
     GameBoardManager gameBoardManager;
 
     //DELETE PLAYERS

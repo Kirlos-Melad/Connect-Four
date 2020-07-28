@@ -9,6 +9,7 @@ TextField::TextField() {
     focusedOutlineColor = nonFocusedOutlineColor = sf::Color::White;
     focus = false;
     inputText = "";
+    outputText.setFillColor(sf::Color::Black);
 }
 
 void TextField::draw(sf::RenderWindow &window) {
@@ -88,7 +89,8 @@ unsigned int TextField::getCharacterSize() const {
 
 void TextField::textOffSetKeeper() {
     int offSet = textField.getSize().y - outputText.getCharacterSize();
-    outputText.setPosition(sf::Vector2f(textField.getPosition().x, textField.getPosition().y + offSet));
+    int boundsOffSet = 4;
+    outputText.setPosition(sf::Vector2f(textField.getPosition().x, textField.getPosition().y + offSet - boundsOffSet));
 }
 
 void TextField::setFont(const sf::Font &font) {

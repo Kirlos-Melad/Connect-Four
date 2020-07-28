@@ -5,11 +5,10 @@
 #include "OnePlayer.h"
 
 OnePlayer::OnePlayer(float width, float height, sf::Font &font)
-: MenuScroller(width, height, font, MAX_NUMBER_OF_ITEMS) {
-    numberOfCharacters = 10;
-
+: MenuTextFieldScroller(width, height, font, MAX_NUMBER_OF_ITEMS, MAX_NUMBER_OF_TEXT_FIELDS) {
+    this->setNumberOfCharacters(10);
     setMenuOptions(width, height, font);
-    setTextField(width, height);
+    setTextField(width, height, font);
 }
 
 void OnePlayer::setMenuOptions(float width, float height, sf::Font &font) {
@@ -34,24 +33,15 @@ void OnePlayer::setMenuOptions(float width, float height, sf::Font &font) {
     menu[2].setCharacterSize(FONT_SIZE);
 }
 
-void OnePlayer::setTextField(float width, float height) {
-    sf::Font font;
-
-    if (!font.loadFromFile("../Assets/NotoSerif-Black.ttf"))
-    {
-        std::cout << "Error .. loading font";
-        //do some
-    }
-
-    TextField textField;
-    textField.setOutlineThickness(2);
-    textField.setNonFocusedOutlineColor(sf::Color(127, 127, 127));
-    textField.setFocusedOutlineColor(sf::Color::Blue);
-    textField.setPosition(sf::Vector2f(X_OFFSET + 50, height / (MAX_NUMBER_OF_ITEMS + 1) * 1));
-    textField.setFieldSize(sf::Vector2f(textField.getCharacterSize() * numberOfCharacters, textField.getFieldSize().y));
-
-    textField.setFont(font);
-    textField.setTextColor(sf::Color::Black);
+void OnePlayer::setTextField(float width, float height, sf::Font &font) {
+    //Text Field settings
+    textField[0].setOutlineThickness(3);
+    textField[0].setNonFocusedOutlineColor(sf::Color(127, 127, 127)); //Gray Color
+    textField[0].setFocusedOutlineColor(sf::Color::Blue);
+    textField[0].setPosition(sf::Vector2f(X_OFFSET * 5, height / (MAX_NUMBER_OF_ITEMS + 1) * 1.08)); //Beside First Choice
+    textField[0].setFieldSize(sf::Vector2f(textField[0].getCharacterSize() * this->getNumberOfCharacters(), textField[0].getFieldSize().y));
+    //Text Settings
+    textField[0].setFont(font);
 }
 
 OnePlayer::~OnePlayer() {

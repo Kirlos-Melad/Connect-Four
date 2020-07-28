@@ -1,10 +1,10 @@
 #include "Classes/Managers/GameManager.h"
 
-#include "Classes/Screens/TextField.h"
+#include "Classes/Functionalities/TextField.h"
 
 int main(){
     GameManager gm;
-    gm.start();
+    gm.Start();
 
     return 0;
 }
@@ -33,7 +33,7 @@ int main() {
 		Players player2(name);
 		player2.setTurn(2);*//*
 
-		//Call GameBoard to display it;
+		//Call Play to display it;
 		gbManager.Display_GameBoard_Console();
 		gbManager.Display_AvailablePositions();
 		//loop that makes the players repeat their movements till one of them wins.
@@ -75,7 +75,7 @@ int main() {
 				NumberOfMovements--;
 
 			}
-			//Call GameBoard to display it;
+			//Call Play to display it;
 			gbManager.Display_GameBoard_Console();
 			//Check the winner.
 			if(gbManager.findWinner() == 1)

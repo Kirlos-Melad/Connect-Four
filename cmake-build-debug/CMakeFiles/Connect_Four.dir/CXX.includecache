@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/home/kirlos/CLionProjects/Connect Four/Classes/Screens/InputHandler.h
+MenuScroller.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.h
+TextField.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Screens/TextField.h
+
 /home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.h
 ../../Headers/includes.h
 /home/kirlos/CLionProjects/Connect Four/Headers/includes.h
@@ -15,10 +21,8 @@ OnePlayer.h
 /home/kirlos/CLionProjects/Connect Four/Classes/Screens/OnePlayer.h
 
 /home/kirlos/CLionProjects/Connect Four/Classes/Screens/OnePlayer.h
-MenuScroller.h
-/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.h
-TextField.h
-/home/kirlos/CLionProjects/Connect Four/Classes/Screens/TextField.h
+InputHandler.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Screens/InputHandler.h
 
 /home/kirlos/CLionProjects/Connect Four/Classes/Screens/TextField.h
 ../../Headers/includes.h

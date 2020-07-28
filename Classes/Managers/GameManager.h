@@ -23,8 +23,10 @@ private:
     sf::Texture textureBackGround;
 public:
     GameManager();
-    void start(); // main menu
-    void gameboard();
+    void Start(); // main menu
+    void GameTypeMenu();
+    void OnePlayerMenu();
+    void Play();
     ~GameManager();
 };
 
