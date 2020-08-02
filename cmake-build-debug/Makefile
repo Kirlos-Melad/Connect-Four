@@ -142,6 +142,141 @@ Connect_Four/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/build
 .PHONY : Connect_Four/fast
 
+Classes/Functionalities/Array1D.o: Classes/Functionalities/Array1D.cpp.o
+
+.PHONY : Classes/Functionalities/Array1D.o
+
+# target to build an object file
+Classes/Functionalities/Array1D.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array1D.cpp.o
+.PHONY : Classes/Functionalities/Array1D.cpp.o
+
+Classes/Functionalities/Array1D.i: Classes/Functionalities/Array1D.cpp.i
+
+.PHONY : Classes/Functionalities/Array1D.i
+
+# target to preprocess a source file
+Classes/Functionalities/Array1D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array1D.cpp.i
+.PHONY : Classes/Functionalities/Array1D.cpp.i
+
+Classes/Functionalities/Array1D.s: Classes/Functionalities/Array1D.cpp.s
+
+.PHONY : Classes/Functionalities/Array1D.s
+
+# target to generate assembly for a file
+Classes/Functionalities/Array1D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array1D.cpp.s
+.PHONY : Classes/Functionalities/Array1D.cpp.s
+
+Classes/Functionalities/Array2D.o: Classes/Functionalities/Array2D.cpp.o
+
+.PHONY : Classes/Functionalities/Array2D.o
+
+# target to build an object file
+Classes/Functionalities/Array2D.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array2D.cpp.o
+.PHONY : Classes/Functionalities/Array2D.cpp.o
+
+Classes/Functionalities/Array2D.i: Classes/Functionalities/Array2D.cpp.i
+
+.PHONY : Classes/Functionalities/Array2D.i
+
+# target to preprocess a source file
+Classes/Functionalities/Array2D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array2D.cpp.i
+.PHONY : Classes/Functionalities/Array2D.cpp.i
+
+Classes/Functionalities/Array2D.s: Classes/Functionalities/Array2D.cpp.s
+
+.PHONY : Classes/Functionalities/Array2D.s
+
+# target to generate assembly for a file
+Classes/Functionalities/Array2D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array2D.cpp.s
+.PHONY : Classes/Functionalities/Array2D.cpp.s
+
+Classes/Functionalities/ConnectFourStructure.o: Classes/Functionalities/ConnectFourStructure.cpp.o
+
+.PHONY : Classes/Functionalities/ConnectFourStructure.o
+
+# target to build an object file
+Classes/Functionalities/ConnectFourStructure.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Functionalities/ConnectFourStructure.cpp.o
+.PHONY : Classes/Functionalities/ConnectFourStructure.cpp.o
+
+Classes/Functionalities/ConnectFourStructure.i: Classes/Functionalities/ConnectFourStructure.cpp.i
+
+.PHONY : Classes/Functionalities/ConnectFourStructure.i
+
+# target to preprocess a source file
+Classes/Functionalities/ConnectFourStructure.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Functionalities/ConnectFourStructure.cpp.i
+.PHONY : Classes/Functionalities/ConnectFourStructure.cpp.i
+
+Classes/Functionalities/ConnectFourStructure.s: Classes/Functionalities/ConnectFourStructure.cpp.s
+
+.PHONY : Classes/Functionalities/ConnectFourStructure.s
+
+# target to generate assembly for a file
+Classes/Functionalities/ConnectFourStructure.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Functionalities/ConnectFourStructure.cpp.s
+.PHONY : Classes/Functionalities/ConnectFourStructure.cpp.s
+
+Classes/Functionalities/SharedPointer.o: Classes/Functionalities/SharedPointer.cpp.o
+
+.PHONY : Classes/Functionalities/SharedPointer.o
+
+# target to build an object file
+Classes/Functionalities/SharedPointer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Functionalities/SharedPointer.cpp.o
+.PHONY : Classes/Functionalities/SharedPointer.cpp.o
+
+Classes/Functionalities/SharedPointer.i: Classes/Functionalities/SharedPointer.cpp.i
+
+.PHONY : Classes/Functionalities/SharedPointer.i
+
+# target to preprocess a source file
+Classes/Functionalities/SharedPointer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Functionalities/SharedPointer.cpp.i
+.PHONY : Classes/Functionalities/SharedPointer.cpp.i
+
+Classes/Functionalities/SharedPointer.s: Classes/Functionalities/SharedPointer.cpp.s
+
+.PHONY : Classes/Functionalities/SharedPointer.s
+
+# target to generate assembly for a file
+Classes/Functionalities/SharedPointer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Functionalities/SharedPointer.cpp.s
+.PHONY : Classes/Functionalities/SharedPointer.cpp.s
+
+Classes/Functionalities/TextField.o: Classes/Functionalities/TextField.cpp.o
+
+.PHONY : Classes/Functionalities/TextField.o
+
+# target to build an object file
+Classes/Functionalities/TextField.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Functionalities/TextField.cpp.o
+.PHONY : Classes/Functionalities/TextField.cpp.o
+
+Classes/Functionalities/TextField.i: Classes/Functionalities/TextField.cpp.i
+
+.PHONY : Classes/Functionalities/TextField.i
+
+# target to preprocess a source file
+Classes/Functionalities/TextField.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Functionalities/TextField.cpp.i
+.PHONY : Classes/Functionalities/TextField.cpp.i
+
+Classes/Functionalities/TextField.s: Classes/Functionalities/TextField.cpp.s
+
+.PHONY : Classes/Functionalities/TextField.s
+
+# target to generate assembly for a file
+Classes/Functionalities/TextField.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Functionalities/TextField.cpp.s
+.PHONY : Classes/Functionalities/TextField.cpp.s
+
 Classes/Managers/GameBoardManager.o: Classes/Managers/GameBoardManager.cpp.o
 
 .PHONY : Classes/Managers/GameBoardManager.o
@@ -195,6 +330,87 @@ Classes/Managers/GameManager.s: Classes/Managers/GameManager.cpp.s
 Classes/Managers/GameManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.s
 .PHONY : Classes/Managers/GameManager.cpp.s
+
+Classes/Managers/MenuScroller.o: Classes/Managers/MenuScroller.cpp.o
+
+.PHONY : Classes/Managers/MenuScroller.o
+
+# target to build an object file
+Classes/Managers/MenuScroller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Managers/MenuScroller.cpp.o
+.PHONY : Classes/Managers/MenuScroller.cpp.o
+
+Classes/Managers/MenuScroller.i: Classes/Managers/MenuScroller.cpp.i
+
+.PHONY : Classes/Managers/MenuScroller.i
+
+# target to preprocess a source file
+Classes/Managers/MenuScroller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Managers/MenuScroller.cpp.i
+.PHONY : Classes/Managers/MenuScroller.cpp.i
+
+Classes/Managers/MenuScroller.s: Classes/Managers/MenuScroller.cpp.s
+
+.PHONY : Classes/Managers/MenuScroller.s
+
+# target to generate assembly for a file
+Classes/Managers/MenuScroller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Managers/MenuScroller.cpp.s
+.PHONY : Classes/Managers/MenuScroller.cpp.s
+
+Classes/Managers/MenuTextFieldScroller.o: Classes/Managers/MenuTextFieldScroller.cpp.o
+
+.PHONY : Classes/Managers/MenuTextFieldScroller.o
+
+# target to build an object file
+Classes/Managers/MenuTextFieldScroller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Managers/MenuTextFieldScroller.cpp.o
+.PHONY : Classes/Managers/MenuTextFieldScroller.cpp.o
+
+Classes/Managers/MenuTextFieldScroller.i: Classes/Managers/MenuTextFieldScroller.cpp.i
+
+.PHONY : Classes/Managers/MenuTextFieldScroller.i
+
+# target to preprocess a source file
+Classes/Managers/MenuTextFieldScroller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Managers/MenuTextFieldScroller.cpp.i
+.PHONY : Classes/Managers/MenuTextFieldScroller.cpp.i
+
+Classes/Managers/MenuTextFieldScroller.s: Classes/Managers/MenuTextFieldScroller.cpp.s
+
+.PHONY : Classes/Managers/MenuTextFieldScroller.s
+
+# target to generate assembly for a file
+Classes/Managers/MenuTextFieldScroller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Managers/MenuTextFieldScroller.cpp.s
+.PHONY : Classes/Managers/MenuTextFieldScroller.cpp.s
+
+Classes/Players/Judge.o: Classes/Players/Judge.cpp.o
+
+.PHONY : Classes/Players/Judge.o
+
+# target to build an object file
+Classes/Players/Judge.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Players/Judge.cpp.o
+.PHONY : Classes/Players/Judge.cpp.o
+
+Classes/Players/Judge.i: Classes/Players/Judge.cpp.i
+
+.PHONY : Classes/Players/Judge.i
+
+# target to preprocess a source file
+Classes/Players/Judge.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Players/Judge.cpp.i
+.PHONY : Classes/Players/Judge.cpp.i
+
+Classes/Players/Judge.s: Classes/Players/Judge.cpp.s
+
+.PHONY : Classes/Players/Judge.s
+
+# target to generate assembly for a file
+Classes/Players/Judge.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Players/Judge.cpp.s
+.PHONY : Classes/Players/Judge.cpp.s
 
 Classes/Players/Player.o: Classes/Players/Player.cpp.o
 
@@ -304,33 +520,6 @@ Classes/Screens/GameType.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/GameType.cpp.s
 .PHONY : Classes/Screens/GameType.cpp.s
 
-Classes/Screens/InputHandler.o: Classes/Screens/InputHandler.cpp.o
-
-.PHONY : Classes/Screens/InputHandler.o
-
-# target to build an object file
-Classes/Screens/InputHandler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/InputHandler.cpp.o
-.PHONY : Classes/Screens/InputHandler.cpp.o
-
-Classes/Screens/InputHandler.i: Classes/Screens/InputHandler.cpp.i
-
-.PHONY : Classes/Screens/InputHandler.i
-
-# target to preprocess a source file
-Classes/Screens/InputHandler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/InputHandler.cpp.i
-.PHONY : Classes/Screens/InputHandler.cpp.i
-
-Classes/Screens/InputHandler.s: Classes/Screens/InputHandler.cpp.s
-
-.PHONY : Classes/Screens/InputHandler.s
-
-# target to generate assembly for a file
-Classes/Screens/InputHandler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/InputHandler.cpp.s
-.PHONY : Classes/Screens/InputHandler.cpp.s
-
 Classes/Screens/MainMenu.o: Classes/Screens/MainMenu.cpp.o
 
 .PHONY : Classes/Screens/MainMenu.o
@@ -358,33 +547,6 @@ Classes/Screens/MainMenu.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.s
 .PHONY : Classes/Screens/MainMenu.cpp.s
 
-Classes/Screens/MenuScroller.o: Classes/Screens/MenuScroller.cpp.o
-
-.PHONY : Classes/Screens/MenuScroller.o
-
-# target to build an object file
-Classes/Screens/MenuScroller.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.o
-.PHONY : Classes/Screens/MenuScroller.cpp.o
-
-Classes/Screens/MenuScroller.i: Classes/Screens/MenuScroller.cpp.i
-
-.PHONY : Classes/Screens/MenuScroller.i
-
-# target to preprocess a source file
-Classes/Screens/MenuScroller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.i
-.PHONY : Classes/Screens/MenuScroller.cpp.i
-
-Classes/Screens/MenuScroller.s: Classes/Screens/MenuScroller.cpp.s
-
-.PHONY : Classes/Screens/MenuScroller.s
-
-# target to generate assembly for a file
-Classes/Screens/MenuScroller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.s
-.PHONY : Classes/Screens/MenuScroller.cpp.s
-
 Classes/Screens/OnePlayer.o: Classes/Screens/OnePlayer.cpp.o
 
 .PHONY : Classes/Screens/OnePlayer.o
@@ -411,33 +573,6 @@ Classes/Screens/OnePlayer.s: Classes/Screens/OnePlayer.cpp.s
 Classes/Screens/OnePlayer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/OnePlayer.cpp.s
 .PHONY : Classes/Screens/OnePlayer.cpp.s
-
-Classes/Screens/TextField.o: Classes/Screens/TextField.cpp.o
-
-.PHONY : Classes/Screens/TextField.o
-
-# target to build an object file
-Classes/Screens/TextField.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/TextField.cpp.o
-.PHONY : Classes/Screens/TextField.cpp.o
-
-Classes/Screens/TextField.i: Classes/Screens/TextField.cpp.i
-
-.PHONY : Classes/Screens/TextField.i
-
-# target to preprocess a source file
-Classes/Screens/TextField.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/TextField.cpp.i
-.PHONY : Classes/Screens/TextField.cpp.i
-
-Classes/Screens/TextField.s: Classes/Screens/TextField.cpp.s
-
-.PHONY : Classes/Screens/TextField.s
-
-# target to generate assembly for a file
-Classes/Screens/TextField.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Connect_Four.dir/build.make CMakeFiles/Connect_Four.dir/Classes/Screens/TextField.cpp.s
-.PHONY : Classes/Screens/TextField.cpp.s
 
 Classes/Screens/TwoPlayer.o: Classes/Screens/TwoPlayer.cpp.o
 
@@ -502,12 +637,36 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Connect_Four"
+	@echo "... Classes/Functionalities/Array1D.o"
+	@echo "... Classes/Functionalities/Array1D.i"
+	@echo "... Classes/Functionalities/Array1D.s"
+	@echo "... Classes/Functionalities/Array2D.o"
+	@echo "... Classes/Functionalities/Array2D.i"
+	@echo "... Classes/Functionalities/Array2D.s"
+	@echo "... Classes/Functionalities/ConnectFourStructure.o"
+	@echo "... Classes/Functionalities/ConnectFourStructure.i"
+	@echo "... Classes/Functionalities/ConnectFourStructure.s"
+	@echo "... Classes/Functionalities/SharedPointer.o"
+	@echo "... Classes/Functionalities/SharedPointer.i"
+	@echo "... Classes/Functionalities/SharedPointer.s"
+	@echo "... Classes/Functionalities/TextField.o"
+	@echo "... Classes/Functionalities/TextField.i"
+	@echo "... Classes/Functionalities/TextField.s"
 	@echo "... Classes/Managers/GameBoardManager.o"
 	@echo "... Classes/Managers/GameBoardManager.i"
 	@echo "... Classes/Managers/GameBoardManager.s"
 	@echo "... Classes/Managers/GameManager.o"
 	@echo "... Classes/Managers/GameManager.i"
 	@echo "... Classes/Managers/GameManager.s"
+	@echo "... Classes/Managers/MenuScroller.o"
+	@echo "... Classes/Managers/MenuScroller.i"
+	@echo "... Classes/Managers/MenuScroller.s"
+	@echo "... Classes/Managers/MenuTextFieldScroller.o"
+	@echo "... Classes/Managers/MenuTextFieldScroller.i"
+	@echo "... Classes/Managers/MenuTextFieldScroller.s"
+	@echo "... Classes/Players/Judge.o"
+	@echo "... Classes/Players/Judge.i"
+	@echo "... Classes/Players/Judge.s"
 	@echo "... Classes/Players/Player.o"
 	@echo "... Classes/Players/Player.i"
 	@echo "... Classes/Players/Player.s"
@@ -520,21 +679,12 @@ help:
 	@echo "... Classes/Screens/GameType.o"
 	@echo "... Classes/Screens/GameType.i"
 	@echo "... Classes/Screens/GameType.s"
-	@echo "... Classes/Screens/InputHandler.o"
-	@echo "... Classes/Screens/InputHandler.i"
-	@echo "... Classes/Screens/InputHandler.s"
 	@echo "... Classes/Screens/MainMenu.o"
 	@echo "... Classes/Screens/MainMenu.i"
 	@echo "... Classes/Screens/MainMenu.s"
-	@echo "... Classes/Screens/MenuScroller.o"
-	@echo "... Classes/Screens/MenuScroller.i"
-	@echo "... Classes/Screens/MenuScroller.s"
 	@echo "... Classes/Screens/OnePlayer.o"
 	@echo "... Classes/Screens/OnePlayer.i"
 	@echo "... Classes/Screens/OnePlayer.s"
-	@echo "... Classes/Screens/TextField.o"
-	@echo "... Classes/Screens/TextField.i"
-	@echo "... Classes/Screens/TextField.s"
 	@echo "... Classes/Screens/TwoPlayer.o"
 	@echo "... Classes/Screens/TwoPlayer.i"
 	@echo "... Classes/Screens/TwoPlayer.s"

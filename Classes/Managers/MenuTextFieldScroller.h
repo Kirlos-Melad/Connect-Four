@@ -7,6 +7,7 @@
 
 #include "MenuScroller.h"
 #include "../Functionalities/TextField.h"
+#include <string>
 
 class MenuTextFieldScroller : public MenuScroller {
 private:
@@ -22,8 +23,8 @@ public:
     bool isTextFieldFocused() const;
     void textInputHandler(sf::Event e);
 
+    std::string getText(int i) const;
     int getNumberOfCharacters() const;
-
     void setNumberOfCharacters(int numberOfCharacters);
 
     //Hide the Base class functions

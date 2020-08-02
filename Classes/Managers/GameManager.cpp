@@ -100,10 +100,10 @@ void GameManager::GameTypeMenu() {
                 else if (event.key.code == sf::Keyboard::Enter) {
                     int choosenItem = gameType.getPressedItem();
                     if(choosenItem == 0){
-                        OnePlayerMenu();
+
                     }
                     else if(choosenItem == 1){
-
+                        OnePlayerMenu();
                     }
                     else if(choosenItem == 2){
                         return;
@@ -139,7 +139,7 @@ void GameManager::OnePlayerMenu() {
                         onePlayer.setTextFieldFocus(!onePlayer.isTextFieldFocused());
                     }
                     else if(choosenItem == 1){
-                        //set players
+                        Player p(onePlayer.getText(0));
                         Play();
                     }
                     else if(choosenItem == 2){
@@ -164,11 +164,9 @@ void GameManager::Play() {
     //DELETE PLAYERS
     Player p1("p1");
     p1.setTurn(FIRST_PLAYER);
-    p1.setColor('r');
 
     VeiGoBot p2;
     p2.setTurn(SECOND_PLAYER);
-    p2.setColor('b');
 
     GameBoard gameBoard(screenWidth, screenHeight);
     const int xOffSet = gameBoard.getXOffSet();
@@ -186,11 +184,11 @@ void GameManager::Play() {
                             //gameBoardManager.insertPieceAt(((switcher % 2) + 1 == 1 ? p1.getTurn() : p2.getTurn()), i - 1);
                             if((switcher % 2) + 1 == 1){
                                 gameBoardManager.insertPieceAt(p1.getTurn(), i - 1);
+                                switcher++;
                             }
-                            else{
-                                //p2.veigoPlay(gameBoardManager);
-                            }
-                            switcher++;
+                            /*else{
+                                gameBoardManager.insertPieceAt(p2.getTurn(), p2.veigoPlay(gameBoardManager.cloneGameBoard()));
+                            }*/
                             break;
                         }
                     }
@@ -198,11 +196,11 @@ void GameManager::Play() {
             }
         }
         if((switcher % 2) + 1 == 2){
-            p2.veigoPlay(gameBoardManager);
+            gameBoardManager.insertPieceAt(p2.getTurn(), p2.veigoPlay(gameBoardManager.cloneGameBoard()));
             switcher++;
         }
         window.clear();
-        gameBoard.draw(window, gameBoardManager.getBoardCopy());
+        gameBoard.draw(window, gameBoardManager.cloneGameBoard());
         window.display();
     }
 }

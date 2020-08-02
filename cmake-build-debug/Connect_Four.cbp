@@ -82,6 +82,36 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/Array1D.cpp">
+			<Option target="Connect_Four"/>
+		</Unit>
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/Array1D.h">
+			<Option target="Connect_Four"/>
+		</Unit>
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/Array2D.cpp">
+			<Option target="Connect_Four"/>
+		</Unit>
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/Array2D.h">
+			<Option target="Connect_Four"/>
+		</Unit>
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/ConnectFourStructure.cpp">
+			<Option target="Connect_Four"/>
+		</Unit>
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/ConnectFourStructure.h">
+			<Option target="Connect_Four"/>
+		</Unit>
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/SharedPointer.cpp">
+			<Option target="Connect_Four"/>
+		</Unit>
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/SharedPointer.h">
+			<Option target="Connect_Four"/>
+		</Unit>
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/TextField.cpp">
+			<Option target="Connect_Four"/>
+		</Unit>
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/TextField.h">
+			<Option target="Connect_Four"/>
+		</Unit>
 		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameBoardManager.cpp">
 			<Option target="Connect_Four"/>
 		</Unit>
@@ -92,6 +122,24 @@
 			<Option target="Connect_Four"/>
 		</Unit>
 		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameManager.h">
+			<Option target="Connect_Four"/>
+		</Unit>
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Managers/MenuScroller.cpp">
+			<Option target="Connect_Four"/>
+		</Unit>
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Managers/MenuScroller.h">
+			<Option target="Connect_Four"/>
+		</Unit>
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Managers/MenuTextFieldScroller.cpp">
+			<Option target="Connect_Four"/>
+		</Unit>
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Managers/MenuTextFieldScroller.h">
+			<Option target="Connect_Four"/>
+		</Unit>
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Players/Judge.cpp">
+			<Option target="Connect_Four"/>
+		</Unit>
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Players/Judge.h">
 			<Option target="Connect_Four"/>
 		</Unit>
 		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Players/Player.cpp">
@@ -118,22 +166,10 @@
 		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Screens/GameType.h">
 			<Option target="Connect_Four"/>
 		</Unit>
-		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Screens/InputHandler.cpp">
-			<Option target="Connect_Four"/>
-		</Unit>
-		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Screens/InputHandler.h">
-			<Option target="Connect_Four"/>
-		</Unit>
 		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MainMenu.cpp">
 			<Option target="Connect_Four"/>
 		</Unit>
 		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MainMenu.h">
-			<Option target="Connect_Four"/>
-		</Unit>
-		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.cpp">
-			<Option target="Connect_Four"/>
-		</Unit>
-		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.h">
 			<Option target="Connect_Four"/>
 		</Unit>
 		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Screens/OnePlayer.cpp">
@@ -142,16 +178,13 @@
 		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Screens/OnePlayer.h">
 			<Option target="Connect_Four"/>
 		</Unit>
-		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Screens/TextField.cpp">
-			<Option target="Connect_Four"/>
-		</Unit>
-		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Screens/TextField.h">
-			<Option target="Connect_Four"/>
-		</Unit>
 		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Screens/TwoPlayer.cpp">
 			<Option target="Connect_Four"/>
 		</Unit>
 		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Classes/Screens/TwoPlayer.h">
+			<Option target="Connect_Four"/>
+		</Unit>
+		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Headers/FunctionalitiesIncludes.h">
 			<Option target="Connect_Four"/>
 		</Unit>
 		<Unit filename="/home/kirlos/CLionProjects/Connect Four/Headers/GameBoardBasic.h">

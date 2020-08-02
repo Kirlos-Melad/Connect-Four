@@ -16,10 +16,10 @@ void MenuTextFieldScroller::textInputHandler(sf::Event e) {
     if (!focus || e.type != sf::Event::TextEntered)
         return;
 
-    if (textField[this->getPressedItem()].getText().getSize() != 0 && e.text.unicode == 8){   // Delete key
+    if (textField[this->getPressedItem()].getText().size() != 0 && e.text.unicode == 8){   // Delete key
         textField[this->getPressedItem()].removeCharacter();
     }
-    else if (textField[this->getPressedItem()].getText().getSize() <= numberOfCharacters && e.text.unicode < 128){
+    else if (textField[this->getPressedItem()].getText().size() <= numberOfCharacters && e.text.unicode < 128){
         textField[this->getPressedItem()].addCharacter((char)e.text.unicode);
     }
 }
@@ -31,6 +31,10 @@ void MenuTextFieldScroller::setTextFieldFocus(bool focus) {
 
 bool MenuTextFieldScroller::isTextFieldFocused() const {
     return focus;
+}
+
+std::string MenuTextFieldScroller::getText(int i) const {
+    return textField[i].getText();
 }
 
 int MenuTextFieldScroller::getNumberOfCharacters() const {

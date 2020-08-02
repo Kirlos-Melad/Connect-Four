@@ -6,40 +6,22 @@
 class Player {
 private:
 	const std::string name;
-	char color; // red(r) or blue(b)
+	sf::Color color;
 	int turn;
 	bool winner;
 public:
 	Player(std::string name);
 	~Player();
 
-	bool isWinner() const {
-		return winner;
-	}
+	bool isWinner() const;
 
-	void setWinner(bool winner) {
-		this->winner = winner;
-	}
+	void setWinner(bool winner);
 
-	char getColor() const {
-		return color;
-	}
+	std::string getName() const;
 
-	std::string getName() const {
-		return name;
-	}
+	int getTurn() const;
 
-	int getTurn() const {
-		return turn;
-	}
-
-	void setColor(char color) {
-		this->color = color;
-	}
-
-	void setTurn(int turn) {
-		this->turn = turn;
-	}
+	void setTurn(int turn);
 };
 
 #endif /* PLAYER_H_ */

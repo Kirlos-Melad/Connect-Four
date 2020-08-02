@@ -42,7 +42,7 @@ public:
 
     const sf::Vector2f getPosition();
 
-    sf::String getText() const;
+    std::string getText() const;
 
     void setOutlineThickness(float thickness);
 

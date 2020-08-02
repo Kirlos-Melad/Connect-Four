@@ -8,21 +8,23 @@
 #define VEIGOBOT_H_
 
 #include "Player.h"
-#include "../Managers/GameBoardManager.h"
+#include "../../Headers/FunctionalitiesIncludes.h"
+#include "Judge.h"
 
 class VeiGoBot : public Player{
 private: // Attributes
 	const int INF = 2e9;
-    GameBoardManager *myGBManager;
+    ConnectFourStructure positionsTracker;
+    Judge judge;
 private: // Methods
-	int minimax(int depth, bool bot, int alpha, int beta);
-	int getBestMove();
-	int evaluate(int sliceArr[4]);
-	int getTotalScore();
+	int minimax(SharedPointer<Array2D<int>> myGameBoard, int depth, bool bot, int alpha, int beta);
+	int getBestMove(SharedPointer<Array2D<int>> myGameBoard);
+	int evaluate(const int sliceArr[4]);
+	int getTotalScore(SharedPointer<Array2D<int>> myGameBoard);
 public:
-	VeiGoBot() : Player("VeiGo"){}
-	void veigoPlay(GameBoardManager &gbManager);
-	~VeiGoBot(){}
+	VeiGoBot();
+	int veigoPlay(SharedPointer<Array2D<int>> myGameBoard);
+	~VeiGoBot();
 };
 
 #endif /* VEIGOBOT_H_ */

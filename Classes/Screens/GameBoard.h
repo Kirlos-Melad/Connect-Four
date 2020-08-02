@@ -9,6 +9,7 @@
 #include "../../Headers/GameBoardBasic.h"
 #include "../Managers/GameBoardManager.h"
 #include "../Players/Player.h"
+#include "../../Headers/FunctionalitiesIncludes.h"
 
 class GameBoard{
 private:
@@ -20,13 +21,10 @@ private:
 public:
     GameBoard(const float &width, const float &height);
     ~GameBoard();
-    void draw(sf::RenderWindow &window, int** gameboard);
+    void draw(sf::RenderWindow &window, SharedPointer<Array2D<int>> gameboard);
 
     const int getXOffSet() const;
     const int getYOffSet() const;
-
-private:
-    void destroyPointer(int** gameboard);
 };
 
 

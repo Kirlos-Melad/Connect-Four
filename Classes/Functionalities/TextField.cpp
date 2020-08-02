@@ -27,8 +27,8 @@ void TextField::removeCharacter() {
     outputText.setString(inputText);
 }
 
-sf::String TextField::getText() const {
-    return outputText.getString();
+std::string TextField::getText() const {
+    return inputText;
 }
 
 bool TextField::isFocus() const {

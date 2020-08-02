@@ -45,7 +45,7 @@ int main() {
 				gbManager.Display_AvailablePositions();
 				cout << player1.getName() << " , please enter (x) position : ";
 				cin >> x;
-				if (gbManager.AvailablePositionsCheck(x) == -1) {
+				if (gbManager.getAvailablePositionAt(x) == -1) {
 					cout << "Invalid move , please try again." << endl;
 					goto loop1;
 				}
@@ -59,7 +59,7 @@ int main() {
 				loop2:
 				cout << player2.getName() << " , please enter (x) position : ";
 				cin >> x;
-				if (gbManager.AvailablePositionsCheck(x) == -1) {
+				if (gbManager.getAvailablePositionAt(x) == -1) {
 					cout << "Invalid move , please try again." << endl;
 					goto loop2;
 				}

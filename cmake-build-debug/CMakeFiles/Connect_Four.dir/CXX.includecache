@@ -6,27 +6,137 @@
 
 #IncludeRegexTransform: 
 
-/home/kirlos/CLionProjects/Connect Four/Classes/Screens/InputHandler.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/Array1D.cpp
+Array1D.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/Array1D.h
+
+/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/Array1D.h
+
+/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/Array2D.cpp
+Array2D.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/Array2D.h
+
+/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/Array2D.h
+Array1D.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/Array1D.h
+
+/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/ConnectFourStructure.h
+bits/stdc++.h
+-
+../../Headers/GameBoardBasic.h
+/home/kirlos/CLionProjects/Connect Four/Headers/GameBoardBasic.h
+SharedPointer.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/SharedPointer.h
+Array2D.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/Array2D.h
+
+/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/SharedPointer.cpp
+SharedPointer.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/SharedPointer.h
+
+/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/SharedPointer.h
+bits/stdc++.h
+-
+
+/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/TextField.h
+../../Headers/includes.h
+/home/kirlos/CLionProjects/Connect Four/Headers/includes.h
+
+/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameBoardManager.h
+../../Headers/includes.h
+/home/kirlos/CLionProjects/Connect Four/Headers/includes.h
+../../Headers/GameBoardBasic.h
+/home/kirlos/CLionProjects/Connect Four/Headers/GameBoardBasic.h
+../../Headers/FunctionalitiesIncludes.h
+/home/kirlos/CLionProjects/Connect Four/Headers/FunctionalitiesIncludes.h
+../Players/Judge.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Players/Judge.h
+
+/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameManager.cpp
+GameManager.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameManager.h
+GameBoardManager.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameBoardManager.h
+../Screens/GameType.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Screens/GameType.h
+../Screens/OnePlayer.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Screens/OnePlayer.h
+../Screens/GameBoard.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Screens/GameBoard.h
+../Players/VeiGoBot.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Players/VeiGoBot.h
+
+/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameManager.h
+../../Headers/includes.h
+/home/kirlos/CLionProjects/Connect Four/Headers/includes.h
+../Screens/MainMenu.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MainMenu.h
+
+/home/kirlos/CLionProjects/Connect Four/Classes/Managers/MenuScroller.h
+../../Headers/includes.h
+/home/kirlos/CLionProjects/Connect Four/Headers/includes.h
+
+/home/kirlos/CLionProjects/Connect Four/Classes/Managers/MenuTextFieldScroller.h
 MenuScroller.h
-/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.h
-TextField.h
-/home/kirlos/CLionProjects/Connect Four/Classes/Screens/TextField.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Managers/MenuScroller.h
+../Functionalities/TextField.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/TextField.h
+string
+-
 
-/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Players/Judge.h
+../../Headers/GameBoardBasic.h
+/home/kirlos/CLionProjects/Connect Four/Headers/GameBoardBasic.h
+../../Headers/FunctionalitiesIncludes.h
+/home/kirlos/CLionProjects/Connect Four/Headers/FunctionalitiesIncludes.h
+
+/home/kirlos/CLionProjects/Connect Four/Classes/Players/Player.h
 ../../Headers/includes.h
 /home/kirlos/CLionProjects/Connect Four/Headers/includes.h
 
-/home/kirlos/CLionProjects/Connect Four/Classes/Screens/OnePlayer.cpp
-OnePlayer.h
-/home/kirlos/CLionProjects/Connect Four/Classes/Screens/OnePlayer.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Players/VeiGoBot.h
+Player.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Players/Player.h
+../../Headers/FunctionalitiesIncludes.h
+/home/kirlos/CLionProjects/Connect Four/Headers/FunctionalitiesIncludes.h
+Judge.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Players/Judge.h
 
-/home/kirlos/CLionProjects/Connect Four/Classes/Screens/OnePlayer.h
-InputHandler.h
-/home/kirlos/CLionProjects/Connect Four/Classes/Screens/InputHandler.h
-
-/home/kirlos/CLionProjects/Connect Four/Classes/Screens/TextField.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Screens/GameBoard.h
 ../../Headers/includes.h
 /home/kirlos/CLionProjects/Connect Four/Headers/includes.h
+../../Headers/GameBoardBasic.h
+/home/kirlos/CLionProjects/Connect Four/Headers/GameBoardBasic.h
+../Managers/GameBoardManager.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Managers/GameBoardManager.h
+../Players/Player.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Players/Player.h
+../../Headers/FunctionalitiesIncludes.h
+/home/kirlos/CLionProjects/Connect Four/Headers/FunctionalitiesIncludes.h
+
+/home/kirlos/CLionProjects/Connect Four/Classes/Screens/GameType.h
+../Managers/MenuScroller.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Managers/MenuScroller.h
+
+/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MainMenu.h
+../Managers/MenuScroller.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Managers/MenuScroller.h
+
+/home/kirlos/CLionProjects/Connect Four/Classes/Screens/OnePlayer.h
+../Managers/MenuTextFieldScroller.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Managers/MenuTextFieldScroller.h
+
+/home/kirlos/CLionProjects/Connect Four/Headers/FunctionalitiesIncludes.h
+../Classes/Functionalities/ConnectFourStructure.h
+/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/ConnectFourStructure.h
+../Classes/Functionalities/Array2D.cpp
+/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/Array2D.cpp
+../Classes/Functionalities/Array1D.cpp
+/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/Array1D.cpp
+../Classes/Functionalities/SharedPointer.cpp
+/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/SharedPointer.cpp
+
+/home/kirlos/CLionProjects/Connect Four/Headers/GameBoardBasic.h
 
 /home/kirlos/CLionProjects/Connect Four/Headers/includes.h
 bits/stdc++.h

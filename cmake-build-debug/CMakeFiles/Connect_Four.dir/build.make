@@ -128,18 +128,18 @@ CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kirlos/CLionProjects/Connect Four/Classes/Players/VeiGoBot.cpp" -o CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.s
 
-CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.o: CMakeFiles/Connect_Four.dir/flags.make
-CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.o: ../Classes/Screens/MenuScroller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.o -c "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.cpp"
+CMakeFiles/Connect_Four.dir/Classes/Managers/MenuScroller.cpp.o: CMakeFiles/Connect_Four.dir/flags.make
+CMakeFiles/Connect_Four.dir/Classes/Managers/MenuScroller.cpp.o: ../Classes/Managers/MenuScroller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Connect_Four.dir/Classes/Managers/MenuScroller.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Connect_Four.dir/Classes/Managers/MenuScroller.cpp.o -c "/home/kirlos/CLionProjects/Connect Four/Classes/Managers/MenuScroller.cpp"
 
-CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.cpp" > CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.i
+CMakeFiles/Connect_Four.dir/Classes/Managers/MenuScroller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Connect_Four.dir/Classes/Managers/MenuScroller.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kirlos/CLionProjects/Connect Four/Classes/Managers/MenuScroller.cpp" > CMakeFiles/Connect_Four.dir/Classes/Managers/MenuScroller.cpp.i
 
-CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/MenuScroller.cpp" -o CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.s
+CMakeFiles/Connect_Four.dir/Classes/Managers/MenuScroller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_Four.dir/Classes/Managers/MenuScroller.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kirlos/CLionProjects/Connect Four/Classes/Managers/MenuScroller.cpp" -o CMakeFiles/Connect_Four.dir/Classes/Managers/MenuScroller.cpp.s
 
 CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.o: CMakeFiles/Connect_Four.dir/flags.make
 CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.o: ../Classes/Screens/MainMenu.cpp
@@ -193,18 +193,18 @@ CMakeFiles/Connect_Four.dir/Classes/Screens/GameType.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_Four.dir/Classes/Screens/GameType.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/GameType.cpp" -o CMakeFiles/Connect_Four.dir/Classes/Screens/GameType.cpp.s
 
-CMakeFiles/Connect_Four.dir/Classes/Screens/TextField.cpp.o: CMakeFiles/Connect_Four.dir/flags.make
-CMakeFiles/Connect_Four.dir/Classes/Screens/TextField.cpp.o: ../Classes/Screens/TextField.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Connect_Four.dir/Classes/Screens/TextField.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Connect_Four.dir/Classes/Screens/TextField.cpp.o -c "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/TextField.cpp"
+CMakeFiles/Connect_Four.dir/Classes/Functionalities/TextField.cpp.o: CMakeFiles/Connect_Four.dir/flags.make
+CMakeFiles/Connect_Four.dir/Classes/Functionalities/TextField.cpp.o: ../Classes/Functionalities/TextField.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Connect_Four.dir/Classes/Functionalities/TextField.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Connect_Four.dir/Classes/Functionalities/TextField.cpp.o -c "/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/TextField.cpp"
 
-CMakeFiles/Connect_Four.dir/Classes/Screens/TextField.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Connect_Four.dir/Classes/Screens/TextField.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/TextField.cpp" > CMakeFiles/Connect_Four.dir/Classes/Screens/TextField.cpp.i
+CMakeFiles/Connect_Four.dir/Classes/Functionalities/TextField.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Connect_Four.dir/Classes/Functionalities/TextField.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/TextField.cpp" > CMakeFiles/Connect_Four.dir/Classes/Functionalities/TextField.cpp.i
 
-CMakeFiles/Connect_Four.dir/Classes/Screens/TextField.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_Four.dir/Classes/Screens/TextField.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/TextField.cpp" -o CMakeFiles/Connect_Four.dir/Classes/Screens/TextField.cpp.s
+CMakeFiles/Connect_Four.dir/Classes/Functionalities/TextField.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_Four.dir/Classes/Functionalities/TextField.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/TextField.cpp" -o CMakeFiles/Connect_Four.dir/Classes/Functionalities/TextField.cpp.s
 
 CMakeFiles/Connect_Four.dir/Classes/Screens/OnePlayer.cpp.o: CMakeFiles/Connect_Four.dir/flags.make
 CMakeFiles/Connect_Four.dir/Classes/Screens/OnePlayer.cpp.o: ../Classes/Screens/OnePlayer.cpp
@@ -232,18 +232,83 @@ CMakeFiles/Connect_Four.dir/Classes/Screens/TwoPlayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_Four.dir/Classes/Screens/TwoPlayer.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/TwoPlayer.cpp" -o CMakeFiles/Connect_Four.dir/Classes/Screens/TwoPlayer.cpp.s
 
-CMakeFiles/Connect_Four.dir/Classes/Screens/InputHandler.cpp.o: CMakeFiles/Connect_Four.dir/flags.make
-CMakeFiles/Connect_Four.dir/Classes/Screens/InputHandler.cpp.o: ../Classes/Screens/InputHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Connect_Four.dir/Classes/Screens/InputHandler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Connect_Four.dir/Classes/Screens/InputHandler.cpp.o -c "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/InputHandler.cpp"
+CMakeFiles/Connect_Four.dir/Classes/Managers/MenuTextFieldScroller.cpp.o: CMakeFiles/Connect_Four.dir/flags.make
+CMakeFiles/Connect_Four.dir/Classes/Managers/MenuTextFieldScroller.cpp.o: ../Classes/Managers/MenuTextFieldScroller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Connect_Four.dir/Classes/Managers/MenuTextFieldScroller.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Connect_Four.dir/Classes/Managers/MenuTextFieldScroller.cpp.o -c "/home/kirlos/CLionProjects/Connect Four/Classes/Managers/MenuTextFieldScroller.cpp"
 
-CMakeFiles/Connect_Four.dir/Classes/Screens/InputHandler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Connect_Four.dir/Classes/Screens/InputHandler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/InputHandler.cpp" > CMakeFiles/Connect_Four.dir/Classes/Screens/InputHandler.cpp.i
+CMakeFiles/Connect_Four.dir/Classes/Managers/MenuTextFieldScroller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Connect_Four.dir/Classes/Managers/MenuTextFieldScroller.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kirlos/CLionProjects/Connect Four/Classes/Managers/MenuTextFieldScroller.cpp" > CMakeFiles/Connect_Four.dir/Classes/Managers/MenuTextFieldScroller.cpp.i
 
-CMakeFiles/Connect_Four.dir/Classes/Screens/InputHandler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_Four.dir/Classes/Screens/InputHandler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kirlos/CLionProjects/Connect Four/Classes/Screens/InputHandler.cpp" -o CMakeFiles/Connect_Four.dir/Classes/Screens/InputHandler.cpp.s
+CMakeFiles/Connect_Four.dir/Classes/Managers/MenuTextFieldScroller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_Four.dir/Classes/Managers/MenuTextFieldScroller.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kirlos/CLionProjects/Connect Four/Classes/Managers/MenuTextFieldScroller.cpp" -o CMakeFiles/Connect_Four.dir/Classes/Managers/MenuTextFieldScroller.cpp.s
+
+CMakeFiles/Connect_Four.dir/Classes/Functionalities/ConnectFourStructure.cpp.o: CMakeFiles/Connect_Four.dir/flags.make
+CMakeFiles/Connect_Four.dir/Classes/Functionalities/ConnectFourStructure.cpp.o: ../Classes/Functionalities/ConnectFourStructure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Connect_Four.dir/Classes/Functionalities/ConnectFourStructure.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Connect_Four.dir/Classes/Functionalities/ConnectFourStructure.cpp.o -c "/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/ConnectFourStructure.cpp"
+
+CMakeFiles/Connect_Four.dir/Classes/Functionalities/ConnectFourStructure.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Connect_Four.dir/Classes/Functionalities/ConnectFourStructure.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/ConnectFourStructure.cpp" > CMakeFiles/Connect_Four.dir/Classes/Functionalities/ConnectFourStructure.cpp.i
+
+CMakeFiles/Connect_Four.dir/Classes/Functionalities/ConnectFourStructure.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_Four.dir/Classes/Functionalities/ConnectFourStructure.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/ConnectFourStructure.cpp" -o CMakeFiles/Connect_Four.dir/Classes/Functionalities/ConnectFourStructure.cpp.s
+
+CMakeFiles/Connect_Four.dir/Classes/Players/Judge.cpp.o: CMakeFiles/Connect_Four.dir/flags.make
+CMakeFiles/Connect_Four.dir/Classes/Players/Judge.cpp.o: ../Classes/Players/Judge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Connect_Four.dir/Classes/Players/Judge.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Connect_Four.dir/Classes/Players/Judge.cpp.o -c "/home/kirlos/CLionProjects/Connect Four/Classes/Players/Judge.cpp"
+
+CMakeFiles/Connect_Four.dir/Classes/Players/Judge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Connect_Four.dir/Classes/Players/Judge.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kirlos/CLionProjects/Connect Four/Classes/Players/Judge.cpp" > CMakeFiles/Connect_Four.dir/Classes/Players/Judge.cpp.i
+
+CMakeFiles/Connect_Four.dir/Classes/Players/Judge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_Four.dir/Classes/Players/Judge.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kirlos/CLionProjects/Connect Four/Classes/Players/Judge.cpp" -o CMakeFiles/Connect_Four.dir/Classes/Players/Judge.cpp.s
+
+CMakeFiles/Connect_Four.dir/Classes/Functionalities/SharedPointer.cpp.o: CMakeFiles/Connect_Four.dir/flags.make
+CMakeFiles/Connect_Four.dir/Classes/Functionalities/SharedPointer.cpp.o: ../Classes/Functionalities/SharedPointer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Connect_Four.dir/Classes/Functionalities/SharedPointer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Connect_Four.dir/Classes/Functionalities/SharedPointer.cpp.o -c "/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/SharedPointer.cpp"
+
+CMakeFiles/Connect_Four.dir/Classes/Functionalities/SharedPointer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Connect_Four.dir/Classes/Functionalities/SharedPointer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/SharedPointer.cpp" > CMakeFiles/Connect_Four.dir/Classes/Functionalities/SharedPointer.cpp.i
+
+CMakeFiles/Connect_Four.dir/Classes/Functionalities/SharedPointer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_Four.dir/Classes/Functionalities/SharedPointer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/SharedPointer.cpp" -o CMakeFiles/Connect_Four.dir/Classes/Functionalities/SharedPointer.cpp.s
+
+CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array1D.cpp.o: CMakeFiles/Connect_Four.dir/flags.make
+CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array1D.cpp.o: ../Classes/Functionalities/Array1D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array1D.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array1D.cpp.o -c "/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/Array1D.cpp"
+
+CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array1D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array1D.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/Array1D.cpp" > CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array1D.cpp.i
+
+CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array1D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array1D.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/Array1D.cpp" -o CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array1D.cpp.s
+
+CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array2D.cpp.o: CMakeFiles/Connect_Four.dir/flags.make
+CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array2D.cpp.o: ../Classes/Functionalities/Array2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array2D.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array2D.cpp.o -c "/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/Array2D.cpp"
+
+CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array2D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array2D.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/Array2D.cpp" > CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array2D.cpp.i
+
+CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array2D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array2D.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kirlos/CLionProjects/Connect Four/Classes/Functionalities/Array2D.cpp" -o CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array2D.cpp.s
 
 # Object files for target Connect_Four
 Connect_Four_OBJECTS = \
@@ -251,15 +316,20 @@ Connect_Four_OBJECTS = \
 "CMakeFiles/Connect_Four.dir/Classes/Managers/GameBoardManager.cpp.o" \
 "CMakeFiles/Connect_Four.dir/Classes/Players/Player.cpp.o" \
 "CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.o" \
-"CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.o" \
+"CMakeFiles/Connect_Four.dir/Classes/Managers/MenuScroller.cpp.o" \
 "CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.o" \
 "CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o" \
 "CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.o" \
 "CMakeFiles/Connect_Four.dir/Classes/Screens/GameType.cpp.o" \
-"CMakeFiles/Connect_Four.dir/Classes/Screens/TextField.cpp.o" \
+"CMakeFiles/Connect_Four.dir/Classes/Functionalities/TextField.cpp.o" \
 "CMakeFiles/Connect_Four.dir/Classes/Screens/OnePlayer.cpp.o" \
 "CMakeFiles/Connect_Four.dir/Classes/Screens/TwoPlayer.cpp.o" \
-"CMakeFiles/Connect_Four.dir/Classes/Screens/InputHandler.cpp.o"
+"CMakeFiles/Connect_Four.dir/Classes/Managers/MenuTextFieldScroller.cpp.o" \
+"CMakeFiles/Connect_Four.dir/Classes/Functionalities/ConnectFourStructure.cpp.o" \
+"CMakeFiles/Connect_Four.dir/Classes/Players/Judge.cpp.o" \
+"CMakeFiles/Connect_Four.dir/Classes/Functionalities/SharedPointer.cpp.o" \
+"CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array1D.cpp.o" \
+"CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array2D.cpp.o"
 
 # External object files for target Connect_Four
 Connect_Four_EXTERNAL_OBJECTS =
@@ -268,15 +338,20 @@ Connect_Four: CMakeFiles/Connect_Four.dir/main.cpp.o
 Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Managers/GameBoardManager.cpp.o
 Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Players/Player.cpp.o
 Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Players/VeiGoBot.cpp.o
-Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Screens/MenuScroller.cpp.o
+Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Managers/MenuScroller.cpp.o
 Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Screens/MainMenu.cpp.o
 Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Managers/GameManager.cpp.o
 Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Screens/GameBoard.cpp.o
 Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Screens/GameType.cpp.o
-Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Screens/TextField.cpp.o
+Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Functionalities/TextField.cpp.o
 Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Screens/OnePlayer.cpp.o
 Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Screens/TwoPlayer.cpp.o
-Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Screens/InputHandler.cpp.o
+Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Managers/MenuTextFieldScroller.cpp.o
+Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Functionalities/ConnectFourStructure.cpp.o
+Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Players/Judge.cpp.o
+Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Functionalities/SharedPointer.cpp.o
+Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array1D.cpp.o
+Connect_Four: CMakeFiles/Connect_Four.dir/Classes/Functionalities/Array2D.cpp.o
 Connect_Four: CMakeFiles/Connect_Four.dir/build.make
 Connect_Four: /usr/lib/libsfml-graphics.so.2.5.1
 Connect_Four: /usr/lib/libsfml-network.so.2.5.1
@@ -284,7 +359,7 @@ Connect_Four: /usr/lib/libsfml-audio.so.2.5.1
 Connect_Four: /usr/lib/libsfml-window.so.2.5.1
 Connect_Four: /usr/lib/libsfml-system.so.2.5.1
 Connect_Four: CMakeFiles/Connect_Four.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable Connect_Four"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/kirlos/CLionProjects/Connect Four/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable Connect_Four"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Connect_Four.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
