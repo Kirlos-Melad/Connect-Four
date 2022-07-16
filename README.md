@@ -1,6 +1,6 @@
 # Connect-Four
-Classic Connect Four game.
-Can play 1vs1 or play vs AI which was implemented using
-Minimax Algorithm &amp; Alpha-Beta pruning optimization.
-Currently adding GUI using SFML and OOP &amp; SOLID principles
-are being applied.
+Classic Connect Four game using SFML library.
+
+Can play vs AI which was implemented using Minimax Algorithm & Alpha-Beta pruning optimization.
+
+OOP & SOLID principles are applied.
